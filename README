@@ -1,0 +1,153 @@
+DATA DISCLAIMER
+===
+The data sets contained in this archive are the property of their copyright
+owners. They are made available in this archive for research purpose only. They
+should not be redistributed publicly without their owner's permission.
+
+
+CODE DISCLAIMER
+===
+This code is provided "as is" without warranty of any kind. It is made available
+under the licensing terms described in the file 'LICENSE'.
+
+
+RELATED PUBLICATION
+===
+"Persistence Atlas for Critical Point Variability in Ensembles"
+Guillaume Favelier, Noura Faraj, Brian Summa, Julien Tierny
+IEEE Transactions on Visualization and Computer Graphics.
+Proceedings of IEEE VIS 2018.
+
+
+---
+
+
+INSTRUCTIONS
+===
+The following instructions are for Unix environments (MacOS, Linux, etc.). For
+Windows users, please follow the usual procedure to import a CMake project into
+VisualStudio (please be careful though, important directory paths may need to
+be changed for the program to run properly).
+
+
+IMPORTANT NOTE
+===
+Due to submission storage limitations, not all of the data-sets shown in
+the paper are available in the archive. We tried to restrict ourselves to a
+relevant subset of acceptable storage size.
+
+
+1) Software requirements:
+==
+This code requires the VTK development libraries to be installed on the system
+(version 6.1 or higher). Please see http://www.vtk.org/ for installation
+instructions.
+
+A recent version of CMake (http://www.cmake.org) should be installed (tested
+with version 2.8).
+
+A recent version of Boost (http://www.boost.org/) should be installed (tested
+with version 1.49.0).
+
+A recent version of Python (http://www.python.org/) should be installed (tested
+with version 3.6.3).
+
+A recent version of SciPy (http://www.scipy.org/) should be installed (tested
+with version 0.18.1).
+
+A recent version of Numpy (http://www.numpy.org/) should be installed (tested
+with version 1.12.1).
+
+A recent version of Scikit-learn (http://www.scikit-learn.org/) should be
+installed (tested with version 0.19.0).
+
+Assuming that a Ubuntu 18.04 system is used, enter the following commands to
+install the required dependencies:
+
+$ apt-get update
+$ apt-get install g++ cmake libboost-dev libvtk6-dev python3-dev \
+  python3-numpy python3-scipy python3-sklearn
+
+
+2) Compiling the code:
+==
+After decompressing the archive, enter the following directory:
+
+PersistenceAtlas/build
+
+From there, enter the following commands (omit the "$" character):
+
+$ cmake ../ttk -DCMAKE_INSTALL_PREFIX=../install
+$ make install
+
+If you have built your own version of VTK, you can tell cmake where
+to find it by adding:
+-DVTK_DIR=<vtk-location>/build
+
+Depending on your system, you may need to tell cmake where to find
+the numpy include directory by adding:
+-DPYTHON_NUMPY_INCLUDE_DIR=<numpy-location>
+
+For Ubuntu distribution such directory may be:
+/usr/lib/python3/dist-packages/numpy/core/include
+
+For Arch Linux distribution, we may need to add the following:
+-DCMAKE_CXX_FLAGS=`pkg-config --cflags python3`
+
+3) Reproducing the results from the paper:
+==
+Enter the following directory:
+
+PersistenceAtlas/install
+
+And enter the following commands:
+
+$ ./bin/persistenceAtlasCmd -i ../data/data.vti
+
+This command will generate several VTK files that ParaView can load
+and the results can be seen as scalar fields on these data sets:
+
+The file pmb.* contains the persistence map of each ensemble member.
+The file ldm.vtu corresponds to the distance matrix between the persistence maps.
+The file sfp.vtp is the planar view of the ensemble.
+The file(s) mcp_{min,max}.* represent(s) the mandatory critical points of each cluster.
+
+4) Program options and arguments:
+==
+From the directory "PersistenceAtlas/install", running the following command line will
+display the program options and arguments:
+
+$ ./bin/persistenceAtlasCmd -h
+[Common]  _____ _____ _  __                       __  __    ____   ___  _  ___
+[Common] |_   _|_   _| |/ /                      / /__\ \  |___ \ / _ \/ |( _ )
+[Common]   | |   | | | ' /                      | |/ __| |   __) | | | | |/ _ \
+[Common]   | |   | | | . \                      | | (__| |  / __/| |_| | | (_) |
+[Common]   |_|   |_| |_|\_\                     | |\___| | |_____|\___/|_|\___/
+[Common]                                         \_\  /_/
+[Common] Welcome!
+[CommandLine] Missing mandatory argument:
+[CommandLine]   -i <{Input data-sets (*.vti, *vtu, *vtp)}>
+[CommandLine]
+[CommandLine] Usage:
+[CommandLine]   ./bin/persistenceAtlasCmd
+[CommandLine] Argument(s):
+[CommandLine]   [-d <Global debug level (default: 3)>]
+[CommandLine]   [-t <Thread number (default: 16)>]
+[CommandLine]   [-numberOfClusters <Force number of clusters (-1 for auto-detection) (default: -1)>]
+[CommandLine]   [-critical <Critical point type (0: min, 1: max, 2: both) (default: 1)>]
+[CommandLine]   [-threshold <Persistence threshold (default: 0.01)>]
+[CommandLine]   [-spread <Persistence spread (standard deviation) (default: 0.1)>]
+[CommandLine]   [-numberOfNeighbors <Number Of Neighbors (default: 5)>]
+[CommandLine]   [-mcpThreshold <Persistence threshold in MandatoryCriticalPoints module (default: 0)>]
+[CommandLine]   -i <{Input data-sets (*.vti, *vtu, *vtp)}>
+[CommandLine]   [-o <Output file name base (no extension) (default: `output')>]
+[CommandLine] Option(s):
+
+
+5) Using other data-sets:
+==
+
+This plugins use VTK Unstructured Grid (vtu) or VTK Image Data (vti) files.
+In the case of an image data, an implicit triangulation is built.
+
+The scalar fields must be associated to the points.
