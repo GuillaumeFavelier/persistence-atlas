@@ -30,13 +30,6 @@ VisualStudio (please be careful though, important directory paths may need to
 be changed for the program to run properly).
 
 
-IMPORTANT NOTE
-===
-Due to submission storage limitations, not all of the data-sets shown in
-the paper are available in the archive. We tried to restrict ourselves to a
-relevant subset of acceptable storage size.
-
-
 1) Software requirements:
 ==
 This code requires the VTK development libraries to be installed on the system
@@ -71,18 +64,14 @@ $ apt-get install g++ cmake libboost-dev libvtk6-dev python3-dev \
 
 2) Compiling the code:
 ==
-After decompressing the archive, enter the following directory:
+Enter the 'persistence-atlas' directory and type the following command (omit the "$" character):
 
-PersistenceAtlas/build
+$ mkdir build install
+$ cd build
 
-From there, enter the following commands (omit the "$" character):
+From there, enter the following commands:
 
 $ cmake ../ttk -DCMAKE_INSTALL_PREFIX=../install
-$ make install
-
-If you have built your own version of VTK, you can tell cmake where
-to find it by adding:
--DVTK_DIR=<vtk-location>/build
 
 Depending on your system, you may need to tell cmake where to find
 the numpy include directory by adding:
@@ -94,11 +83,20 @@ For Ubuntu distribution such directory may be:
 For Arch Linux distribution, we may need to add the following:
 -DCMAKE_CXX_FLAGS=`pkg-config --cflags python3`
 
+If you have built your own version of VTK, you can tell cmake where
+to find it by adding:
+-DVTK_DIR=<vtk-location>/build
+
+Next, enter the following command to build and install:
+
+$ make install
+
+
 3) Reproducing the results from the paper:
 ==
-Enter the following directory:
+Enter the directory "persistence-atlas/install" with the following command:
 
-PersistenceAtlas/install
+$ cd ..//install
 
 And enter the following commands:
 
