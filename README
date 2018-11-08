@@ -94,13 +94,35 @@ $ make install
 
 3) Reproducing the results from the paper:
 ==
-Enter the directory "persistence-atlas/install" with the following command:
 
-$ cd ..//install
+Download the ZIP archive from the following website:
+
+https://drive.google.com/open?id=1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-
+
+And extract the ZIP archive in the 'persistance-atlas' directory with:
+
+$ unzip data.zip
+
+Then enter the directory 'persistence-atlas/install' with:
+
+$ cd ../install
 
 And enter the following commands:
 
-$ ./bin/persistenceAtlasCmd -i ../data/data.vti
+for vortexStreet:
+$ ./bin/persistenceAtlasCmd -i ../data/vortexStreetGoodEnsemble2.vti -spread 0.03 -critical 2 -mcpThreshold 0.015
+
+for isabella:
+$ ./bin/persistenceAtlasCmd -i ../data/isabella_velocity_goodEnsemble.vti -numberOfClusters 3
+
+for startingVortex:
+$ ./bin/persistenceAtlasCmd -i ../data/startingVortexGoodEnsemble.vti -numberOfNeighbors 4 -critical 2
+
+for seaSurfaceHeight:
+$ ./bin/persistenceAtlasCmd -i ../data/seaSurfaceHeightGoodEnsemble.vti -spread 0.01 -threshold 0.1
+
+for pipelineIMage:
+$ ./bin/persistenceAtlasCmd -i ../data/main_example.vtu -numberOfNeighbors 4
 
 This command will generate several VTK files that ParaView can load
 and the results can be seen as scalar fields on these data sets:
