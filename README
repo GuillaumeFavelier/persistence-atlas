@@ -94,7 +94,6 @@ $ make install
 
 3) Reproducing the results from the paper:
 ==
-
 Download the ZIP archive from the following website:
 
 $ wget https://drive.google.com/open?id=1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-
@@ -104,6 +103,12 @@ And extract the ZIP archive in the 'persistance-atlas' directory with:
 $ unzip data.zip
 
 Then from the directory 'persistence-atlas', enter the following commands:
+
+$ scripts/runtime.sh
+
+You will get the total time for each use-case.
+
+If you want to start only a specific use-case, do it with the following command:
 
 for Vortex street:
 $ scripts/vortexStreet.sh
@@ -120,10 +125,7 @@ $ scripts/seaSurfaceHeight.sh
 for Gaussians;
 $ scripts/gaussians.sh
 
-You can get the total time for each use-case by using the command:
-$ scripts/runtime.sh
-
-This command will generate several VTK files that ParaView can load
+These commands will generate several VTK files that ParaView can load
 and the results can be seen as scalar fields on these data sets:
 
 The file pmb.* contains the persistence map of each ensemble member.
@@ -132,6 +134,111 @@ The file sfp.vtp is the planar view of the ensemble.
 The file(s) mcp_{min,max}.* represent(s) the mandatory critical points of each cluster.
 
 For reference, log files for each of these scripts are available in 'persistence-atlas/log'.
+
+To reproduce the figures:
+
+figure 1c:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/sfp.vtp'
+and click on 'Apply'.
+Then click on 'sfp.vtp' in the pipeline and choose 'ClusterIdentifier' in the 'Coloring'
+section in the 'Properties' tab.
+
+figure 1d,1e,1f,1g,1h:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
+and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
+Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster0'.
+You can iterate on the clusters by changing the name of the fields used by the threshold
+from '*_cluster0' to '*_cluster4'.
+
+figure 3b:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/pmb.vtu'
+and click on 'Apply'.
+First, click on 'pmb.vtu' in the pipeline and:
+To get the first row, choose any field from 'Gaussians_075' to 'Gaussians_099' in the 'Coloring'
+section in the 'Properties' tab.
+To get the second row choose any field from 'Gaussians_000' to 'Gaussians_024' in the 'Coloring'
+section in the 'Properties' tab.
+To get the last row, choose any field from 'Gaussians_025' to 'Gaussians_074' in the 'Coloring'
+section in the 'Properties' tab.
+
+figure 3c:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/ldm.vtu'
+and click on 'Apply'.
+Then click on 'ldm.vtu' in the pipeline and choose 'DistanceMatrix' in the 'Coloring'
+section in the 'Properties' tab.
+
+figure 3d:
+--
+Follow the same procedure as the one described in figure 1c but open the file
+'persistence-atlas/gaussians/sfp.vtp' instead.
+
+figure 3e:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/mcp_max.vtu'
+and click on 'Apply'.
+Then click on 'mcp_max.vtu' in the pipeline and apply 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
+Follow the same procedure for the fields 'maximumComponents_cluster1' and 'maximumComponents_cluster2'.
+
+figure 9d:
+--
+Follow the same procedure as the one described in figure 3c but open the file
+'persistence-atlas/startingVortex/ldm.vtu' instead.
+
+figure 9e:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/pmb.vti'
+and click on 'Apply'.
+First, click on 'pmb.vti' in the pipeline and choose any field from 'vorticity_angle_02' to
+'vorticity_angle_08' in the 'Coloring' section in the 'Properties' tab.
+
+figure 9f:
+--
+Follow the same procedure as the one described in figure 9e but choose any field from
+'vorticity_angle_38' to 'vorticity_angle_43' in the 'Coloring' section in the 'Properties' tab.
+
+figure 10(middle):
+--
+Follow the same procedure as the one described in figure 1c but open the file
+'persistence-atlas/startingVortex/sfp.vtp' instead.
+
+figure 10(right):
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/mcp_max.vti'
+and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum and maximum bound in the 'Properties' tab.
+Follow the same procedure for the field 'maximumComponents_cluster1'.
+
+figure 11b:
+--
+For the lower dimensional embedding, follow the same procedure as the one described in figure 1c but
+open the file 'persistence-atlas/isabella/sfp.vtp' instead.
+For the confidence regions, start ParaView, select 'File > Open' and choose the file
+'persistence-atlas/isabella/mcp_max.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum and maximum bound in the 'Properties' tab.
+Follow the same procedure for the fields 'maximumComponents_cluster1' and 'maximumComponents_cluster2'.
+
+figure 12b:
+--
+Follow the same procedure as the one described in figure 1c but open the file
+'persistence-atlas/seaSurfaceHeight/sfp.vtp' instead.
+
+figure 12c,12d,12e,12f:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/seaSurfaceHeight/mcp_max.vti'
+and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
+You can iterate on the clusters by changing the name of the fields used by the threshold
+from '*_cluster0' to '*_cluster3'.
 
 4) Program options and arguments:
 ==
