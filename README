@@ -186,6 +186,22 @@ Then click on 'mcp_max.vtu' in the pipeline and apply 'Filters > Common > Thresh
 'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
 Follow the same procedure for the fields 'maximumComponents_cluster1' and 'maximumComponents_cluster2'.
 
+figure 8:
+--
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/isabella/pmb.vti'
+and click on 'Apply'.
+For the top image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result1'
+as 'Result Array Name' and 'velocityMag_02' as the expression. Now, select 'Result1' in the 'Coloring'
+section and 'Volume' in 'Representation' section.
+For the middle image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result2'
+as 'Result Array Name' and 'velocityMag_30' as the expression. Now, select 'Result2' in the 'Coloring'
+section and 'Volume' in 'Representation' section. You may need to modify the color transfer function in the
+'Color Map Editor' of ParaView to get the exact same result.
+For the bottom image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result3'
+as 'Result Array Name' and 'velocityMag_48' as the expression. Now, select 'Result3' in the 'Coloring'
+section and 'Volume' in 'Representation' section. You may need to modify the color transfer function in the
+'Color Map Editor' of ParaView to get the exact same result.
+
 figure 9d:
 --
 Follow the same procedure as the one described in figure 3c but open the file
