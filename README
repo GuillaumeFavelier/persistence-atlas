@@ -97,7 +97,7 @@ $ make install
 
 Download the ZIP archive from the following website:
 
-https://drive.google.com/open?id=1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-
+$ wget https://drive.google.com/open?id=1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-
 
 And extract the ZIP archive in the 'persistance-atlas' directory with:
 
@@ -120,7 +120,7 @@ $ scripts/seaSurfaceHeight.sh
 for Gaussians;
 $ scripts/gaussians.sh
 
-to get the runtime:
+You can get the total time for each use-case by using the command:
 $ scripts/runtime.sh
 
 This command will generate several VTK files that ParaView can load
@@ -130,6 +130,8 @@ The file pmb.* contains the persistence map of each ensemble member.
 The file ldm.vtu corresponds to the distance matrix between the persistence maps.
 The file sfp.vtp is the planar view of the ensemble.
 The file(s) mcp_{min,max}.* represent(s) the mandatory critical points of each cluster.
+
+For reference, log files for each of these scripts are available in 'persistence-atlas/log'.
 
 4) Program options and arguments:
 ==

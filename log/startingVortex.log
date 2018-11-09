@@ -1,0 +1,608 @@
+[Common]  _____ _____ _  __                       __  __    ____   ___  _  ___
+[Common] |_   _|_   _| |/ /                      / /__\ \  |___ \ / _ \/ |( _ )
+[Common]   | |   | | | ' /                      | |/ __| |   __) | | | | |/ _ \
+[Common]   | |   | | | . \                      | | (__| |  / __/| |_| | | (_) |
+[Common]   |_|   |_| |_|\_\                     | |\___| | |_____|\___/|_|\___/
+[Common]                                         \_\  /_/
+[Common] Welcome!
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[ttkSortScalarField] Memory usage: 0 MB.
+[ttkSortScalarField] Memory usage: 0 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[ttkPersistenceMap] Processing vorticity_angle_02 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0853369
+[FTM] init in            0.012284
+[FTM] sort step in       0.135012
+[FTM] leafSearch JT in   0.15768
+[FTM] leafGrowth JT in   0.658806
+[FTM] trunk JT in        0.020875
+[FTM] leafSearch ST in   0.158295
+[FTM] leafGrowth ST in   0.447363
+[FTM] trunk ST in        0.0297499
+[FTM] merge trees  in    1.47295
+[FTM] build tree in      1.47296
+[FTM] Total  in          1.62031
+[PersistenceMap] Maximum persistences: 16.2502 (second: 16.2502)
+[PersistenceMap] Minimum persistences: 30.8204 (second: 2.43864)
+[PersistenceMap] Selected maximum persistence: 16.2502
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 3.19735 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_03 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0669589
+[FTM] init in            0.0116909
+[FTM] sort step in       0.133492
+[FTM] leafSearch JT in   0.157558
+[FTM] leafGrowth JT in   0.649673
+[FTM] trunk JT in        0.023814
+[FTM] leafSearch ST in   0.158253
+[FTM] leafGrowth ST in   0.49376
+[FTM] trunk ST in        0.0287349
+[FTM] merge trees  in    1.51194
+[FTM] build tree in      1.51195
+[FTM] Total  in          1.65719
+[PersistenceMap] Maximum persistences: 20.7594 (second: 20.7594)
+[PersistenceMap] Minimum persistences: 45.4506 (second: 1.94574)
+[PersistenceMap] Selected maximum persistence: 20.7594
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 3.01077 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_04 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0682049
+[FTM] init in            0.0118248
+[FTM] sort step in       0.135121
+[FTM] leafSearch JT in   0.157606
+[FTM] leafGrowth JT in   0.735483
+[FTM] trunk JT in        0.0217011
+[FTM] leafSearch ST in   0.172704
+[FTM] leafGrowth ST in   0.323815
+[FTM] trunk ST in        0.036062
+[FTM] merge trees  in    1.44752
+[FTM] build tree in      1.44752
+[FTM] Total  in          1.59452
+[PersistenceMap] Maximum persistences: 14.9866 (second: 14.9866)
+[PersistenceMap] Minimum persistences: 43.0601 (second: 1.88221)
+[PersistenceMap] Selected maximum persistence: 14.9866
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 3.52397 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_05 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0760262
+[FTM] init in            0.0134659
+[FTM] sort step in       0.137026
+[FTM] leafSearch JT in   0.157589
+[FTM] leafGrowth JT in   0.702409
+[FTM] trunk JT in        0.0227921
+[FTM] leafSearch ST in   0.158121
+[FTM] leafGrowth ST in   0.274978
+[FTM] trunk ST in        0.03865
+[FTM] merge trees  in    1.35467
+[FTM] build tree in      1.35467
+[FTM] Total  in          1.50521
+[PersistenceMap] Maximum persistences: 19.4332 (second: 19.4332)
+[PersistenceMap] Minimum persistences: 47.5783 (second: 2.1746)
+[PersistenceMap] Selected maximum persistence: 19.4332
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 3.01889 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_06 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0728679
+[FTM] init in            0.0117891
+[FTM] sort step in       0.134413
+[FTM] leafSearch JT in   0.157566
+[FTM] leafGrowth JT in   0.591164
+[FTM] trunk JT in        0.0254521
+[FTM] leafSearch ST in   0.158485
+[FTM] leafGrowth ST in   0.255043
+[FTM] trunk ST in        0.0387831
+[FTM] merge trees  in    1.2266
+[FTM] build tree in      1.22661
+[FTM] Total  in          1.37286
+[PersistenceMap] Maximum persistences: 25.3447 (second: 25.3447)
+[PersistenceMap] Minimum persistences: 60.839 (second: 2.23755)
+[PersistenceMap] Selected maximum persistence: 25.3447
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.66341 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_08 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0372491
+[FTM] init in            0.011734
+[FTM] sort step in       0.129754
+[FTM] leafSearch JT in   0.157542
+[FTM] leafGrowth JT in   0.524193
+[FTM] trunk JT in        0.027914
+[FTM] leafSearch ST in   0.157898
+[FTM] leafGrowth ST in   0.324347
+[FTM] trunk ST in        0.0356469
+[FTM] merge trees  in    1.22768
+[FTM] build tree in      1.22768
+[FTM] Total  in          1.36922
+[PersistenceMap] Maximum persistences: 34.6862 (second: 34.6862)
+[PersistenceMap] Minimum persistences: 73.1225 (second: 2.32063)
+[PersistenceMap] Selected maximum persistence: 34.6862
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.42685 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_38 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0498259
+[FTM] init in            0.0118411
+[FTM] sort step in       0.141413
+[FTM] leafSearch JT in   0.157766
+[FTM] leafGrowth JT in   0.496215
+[FTM] trunk JT in        0.0319841
+[FTM] leafSearch ST in   0.157992
+[FTM] leafGrowth ST in   0.304759
+[FTM] trunk ST in        0.0398161
+[FTM] merge trees  in    1.18865
+[FTM] build tree in      1.18866
+[FTM] Total  in          1.34196
+[PersistenceMap] Maximum persistences: 222.099 (second: 222.099)
+[PersistenceMap] Minimum persistences: 111.005 (second: 111.005)
+[PersistenceMap] Selected maximum persistence: 111.005
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.39313 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_39 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.064429
+[FTM] init in            0.0119119
+[FTM] sort step in       0.142313
+[FTM] leafSearch JT in   0.157742
+[FTM] leafGrowth JT in   0.482185
+[FTM] trunk JT in        0.030715
+[FTM] leafSearch ST in   0.158299
+[FTM] leafGrowth ST in   0.233631
+[FTM] trunk ST in        0.041111
+[FTM] merge trees  in    1.10382
+[FTM] build tree in      1.10382
+[FTM] Total  in          1.2581
+[PersistenceMap] Maximum persistences: 199.53 (second: 199.53)
+[PersistenceMap] Minimum persistences: 122.05 (second: 122.05)
+[PersistenceMap] Selected maximum persistence: 122.05
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.36951 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_40 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0379279
+[FTM] init in            0.01178
+[FTM] sort step in       0.138138
+[FTM] leafSearch JT in   0.157716
+[FTM] leafGrowth JT in   0.472568
+[FTM] trunk JT in        0.0313129
+[FTM] leafSearch ST in   0.158108
+[FTM] leafGrowth ST in   0.298965
+[FTM] trunk ST in        0.0398152
+[FTM] merge trees  in    1.15863
+[FTM] build tree in      1.15864
+[FTM] Total  in          1.30861
+[PersistenceMap] Maximum persistences: 203.118 (second: 203.118)
+[PersistenceMap] Minimum persistences: 128.688 (second: 128.688)
+[PersistenceMap] Selected maximum persistence: 128.688
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.36219 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_41 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.038079
+[FTM] init in            0.0117879
+[FTM] sort step in       0.137424
+[FTM] leafSearch JT in   0.157881
+[FTM] leafGrowth JT in   0.463236
+[FTM] trunk JT in        0.0314729
+[FTM] leafSearch ST in   0.158259
+[FTM] leafGrowth ST in   0.288946
+[FTM] trunk ST in        0.039824
+[FTM] merge trees  in    1.13976
+[FTM] build tree in      1.13977
+[FTM] Total  in          1.28903
+[PersistenceMap] Maximum persistences: 199.553 (second: 199.553)
+[PersistenceMap] Minimum persistences: 135.207 (second: 135.207)
+[PersistenceMap] Selected maximum persistence: 135.207
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.40005 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_42 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0381041
+[FTM] init in            0.0117981
+[FTM] sort step in       0.138081
+[FTM] leafSearch JT in   0.157761
+[FTM] leafGrowth JT in   0.548947
+[FTM] trunk JT in        0.0255311
+[FTM] leafSearch ST in   0.158247
+[FTM] leafGrowth ST in   0.343578
+[FTM] trunk ST in        0.0383711
+[FTM] merge trees  in    1.27257
+[FTM] build tree in      1.27258
+[FTM] Total  in          1.42251
+[PersistenceMap] Maximum persistences: 206.322 (second: 206.322)
+[PersistenceMap] Minimum persistences: 116.482 (second: 116.482)
+[PersistenceMap] Selected maximum persistence: 116.482
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.58184 s. (16 thread(s)).
+[ttkPersistenceMap] Processing vorticity_angle_43 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.01
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.1
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 2
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.056592
+[FTM] init in            0.011837
+[FTM] sort step in       0.137459
+[FTM] leafSearch JT in   0.159672
+[FTM] leafGrowth JT in   0.482459
+[FTM] trunk JT in        0.02986
+[FTM] leafSearch ST in   0.158187
+[FTM] leafGrowth ST in   0.33288
+[FTM] trunk ST in        0.0409451
+[FTM] merge trees  in    1.20416
+[FTM] build tree in      1.20416
+[FTM] Total  in          1.35351
+[PersistenceMap] Maximum persistences: 208.998 (second: 208.998)
+[PersistenceMap] Minimum persistences: 136.671 (second: 136.671)
+[PersistenceMap] Selected maximum persistence: 136.671
+[PersistenceMap] Max distance: 3.59224
+[PersistenceMap] Data-set (1500000 points) processed in 2.59123 s. (16 thread(s)).
+[ttkPersistenceMap] Memory usage: 353.401 MB.
+[ttkPersistenceMap] Batchmode processed overall in 32.5418 s.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[LDistance] Distance: 733.267
+[LDistance] Distance: 617.7
+[LDistance] Distance: 181.557
+[LDistance] Distance: 217.318
+[LDistance] Distance: 181.058
+[LDistance] Distance: 726.66
+[LDistance] Distance: 721.889
+[LDistance] Distance: 650.972
+[LDistance] Distance: 18.2474
+[LDistance] Distance: 23.0954
+[LDistance] Distance: 24.5995
+[LDistance] Distance: 650.318
+[LDistance] Distance: 896.858
+[LDistance] Distance: 14.9004
+[LDistance] Distance: 54.2364
+[LDistance] Distance: 667.911
+[LDistance] Distance: 698.897
+[LDistance] Distance: 188.595
+[LDistance] Distance: 306.231
+[LDistance] Distance: 208.11
+[LDistance] Distance: 659.805
+[LDistance] Distance: 663.927
+[LDistance] Distance: 364.616
+[LDistance] Distance: 37.4598
+[LDistance] Distance: 46.2851
+[LDistance] Distance: 870.301
+[LDistance] Distance: 897.198
+[LDistance] Distance: 772.708
+[LDistance] Distance: 13.4359
+[LDistance] Distance: 25.7786
+[LDistance] Distance: 914.872
+[LDistance] Distance: 889.874
+[LDistance] Distance: 637.868
+[LDistance] Distance: 198.903
+[LDistance] Distance: 93.8065
+[LDistance] Distance: 111.254
+[LDistance] Distance: 37.5637
+[LDistance] Distance: 905.394
+[LDistance] Distance: 879.21
+[LDistance] Distance: 910.453
+[LDistance] Distance: 884.818
+[LDistance] Distance: 100.552
+[LDistance] Distance: 747.397
+[LDistance] Distance: 629.63
+[LDistance] Distance: 737.675
+[LDistance] Distance: 25.1918
+[LDistance] Distance: 644.938
+[LDistance] Distance: 766.02
+[LDistance] Distance: 883.736
+[LDistance] Distance: 44.7661
+[LDistance] Distance: 296.895
+[LDistance] Distance: 335.902
+[LDistance] Distance: 225.91
+[LDistance] Distance: 855.555
+[LDistance] Distance: 637.859
+[LDistance] Distance: 755.955
+[LDistance] Distance: 761.358
+[LDistance] Distance: 712.874
+[LDistance] Distance: 641.504
+[LDistance] Distance: 152.265
+[LDistance] Distance: 673.879
+[LDistance] Distance: 67.0714
+[LDistance] Distance: 31.6684
+[LDistance] Distance: 17.2701
+[LDistance] Distance: 731.183
+[LDistance] Distance: 921.18
+[LDistanceMatrix] Data-set (1500000 points) processed in 0.12517 s. (16 thread(s)).
+[ttkLDistanceMatrix] Memory usage: 0 MB.
+[SpectralEmbedding] Initializing Python: 3.7
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[SpectralEmbedding] Loading Python script from: /home/guillaume/source/persistence-atlas/install/share/scripts/ttk
+[SpectralEmbedding] Data-set  processed in 0.26302 s. (16 thread(s)).
+[ttkSpectralEmbedding] Memory usage: 51.7783 MB.
+[Clustering] Initializing Python: 3.7
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[Clustering] Loading Python script from: /home/guillaume/source/persistence-atlas/install/share/scripts/ttk
+[Clustering] Data-set  processed in 0.0384231 s. (16 thread(s)).
+[ttkClustering] Memory usage: 14.2861 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[ttkSphereFromPoint] Spheres computed in 0.00316119 s.
+[ttkSphereFromPoint] Memory usage: 0.370117 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[ttkUncertainDataEstimator] Number of inputs: 2
+[ttkUncertainDataEstimator] Number of clusters: 2
+[ttkUncertainDataEstimator] Number of scalar fields: 12
+[UncertainDataEstimator] Data-set (1500000 points) processed in 0.118916 s. (16 thread(s)).
+[ttkUncertainDataEstimator] Memory usage: 45.7812 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1500000 vertices, 1497501 cells)
+[ttkMandatoryCriticalPoints] Num[SpectralEmbedding] Python: Input distance matrix:
+[[  0.          14.90039451  25.77856716  37.56372819  44.76608638
+   67.07142571 896.85801504 772.70835046 737.67541711 673.87865821
+  921.18013422 650.31836286]
+ [ 14.90039451   0.          13.43590722  25.19182991  31.66843222
+   54.23643218 889.87442894 766.01953725 731.18295542 667.91060799
+  914.87218015 644.93809258]
+ [ 25.77856716  13.43590722   0.          17.27007659  24.59948745
+   46.28506198 884.81762705 761.35827831 726.66041701 663.92657163
+  910.4525333  641.50379987]
+ [ 37.56372819  25.19182991  17.27007659   0.          18.2473664
+   37.45980827 879.21040894 755.95456636 721.88923977 659.8045058
+  905.3943841  637.85927805]
+ [ 44.76608638  31.66843222  24.59948745  18.2473664    0.
+   23.09542991 870.30092085 747.39696527 712.87431681 650.97187665
+  897.19775477 629.63006787]
+ [ 67.07142571  54.23643218  46.28506198  37.45980827  23.09542991
+    0.         855.55530333 733.26654093 698.89659109 637.86833002
+  883.7360697  617.69996632]
+ [896.85801504 889.87442894 884.81762705 879.21040894 870.30092085
+  855.55530333   0.         188.59525882 198.90257643 296.89456079
+  181.05760204 364.61598998]
+ [772.70835046 766.01953725 761.35827831 755.95456636 747.39696527
+  733.26654093 188.59525882   0.         100.55215319 152.26546653
+  217.31799806 208.11019212]
+ [737.67541711 731.18295542 726.66041701 721.88923977 712.87431681
+  698.89659109 198.90257643 100.55215319   0.         111.25351602
+  225.91045282 181.55714881]
+ [673.87865821 667.91060799 663.92657163 659.8045058  650.97187665
+  637.86833002 296.89456079 152.26546653 111.25351602   0.
+  306.23091003  93.80650517]
+ [921.18013422 914.87218015 910.4525333  905.3943841  897.19775477
+  883.7360697  181.05760204 217.31799806 225.91045282 306.23091003
+    0.         335.90156209]
+ [650.31836286 644.93809258 641.50379987 637.85927805 629.63006787
+  617.69996632 364.61598998 208.11019212 181.55714881  93.80650517
+  335.90156209   0.        ]]
+[SpectralEmbedding] Python: numpy module found.
+[SpectralEmbedding] Python: scipy module found.
+[SpectralEmbedding] Python: sklearn module found.
+[SpectralEmbedding] Python: maxcomponents:  10
+Weight matrix:
+[[1.  1.  1.  0.5 0.  0.  0.  0.  0.  0.  0.  0. ]
+ [1.  1.  1.  1.  0.  0.  0.  0.  0.  0.  0.  0. ]
+ [1.  1.  1.  1.  0.5 0.5 0.  0.  0.  0.  0.  0. ]
+ [0.5 1.  1.  1.  1.  0.5 0.  0.  0.  0.  0.  0. ]
+ [0.  0.  0.5 1.  1.  1.  0.  0.  0.  0.  0.  0. ]
+ [0.  0.  0.5 0.5 1.  1.  0.  0.  0.  0.  0.  0. ]
+ [0.  0.  0.  0.  0.  0.  1.  1.  0.5 0.  1.  0. ]
+ [0.  0.  0.  0.  0.  0.  1.  1.  1.  1.  0.5 0.5]
+ [0.  0.  0.  0.  0.  0.  0.5 1.  1.  1.  0.5 1. ]
+ [0.  0.  0.  0.  0.  0.  0.  1.  1.  1.  0.  1. ]
+ [0.  0.  0.  0.  0.  0.  1.  0.5 0.5 0.  1.  0. ]
+ [0.  0.  0.  0.  0.  0.  0.  0.5 1.  1.  0.  1. ]]
+[SpectralEmbedding] Python: Found dimension from gap:  1
+[SpectralEmbedding] Python: Output eigenvectors:
+[[ 0.9191768 ]
+ [ 1.10301216]
+ [ 1.47068287]
+ [ 1.47068287]
+ [ 0.9191768 ]
+ [ 0.73534144]
+ [-0.44359969]
+ [-0.7097595 ]
+ [-0.7097595 ]
+ [-0.53231963]
+ [-0.35487975]
+ [-0.44359969]]
+[SpectralEmbedding] Python: Output eigenvalues:
+[-5.11891543e+00 -4.71045374e+00 -4.71045374e+00 -3.64885451e+00
+ -3.64885451e+00 -3.14716142e+00 -3.14716142e+00 -1.37461490e+00
+ -1.37461490e+00 -4.44089210e-16 -2.22044605e-16]
+[SpectralEmbedding] Python: Output coords:
+[[ 0.9191768   0.64753179  1.05368218]
+ [ 1.10301216  0.63347769  1.03081295]
+ [ 1.47068287  0.30582919  0.49765397]
+ [ 1.47068287  0.03098021  0.05041187]
+ [ 0.9191768  -0.59800997 -0.97309887]
+ [ 0.73534144 -0.63034061 -1.02570821]
+ [-0.44359969 -0.97309887  0.59800997]
+ [-0.7097595   0.05041187 -0.03098021]
+ [-0.7097595   0.49765397 -0.30582919]
+ [-0.53231963  1.03081295 -0.63347769]
+ [-0.35487975 -1.02570821  0.63034061]
+ [-0.44359969  1.05368218 -0.64753179]]
+[Clustering] Python: Input eigenvalues:
+[[-5.11891543e+00 -4.71045374e+00 -4.71045374e+00 -3.64885451e+00
+  -3.64885451e+00 -3.14716142e+00 -3.14716142e+00 -1.37461490e+00
+  -1.37461490e+00 -4.44089210e-16 -2.22044605e-16]]
+[Clustering] min:  2
+[Clustering] max:  20
+[Clustering] nmin!=nmax
+[Clustering] Python: numpy module found.
+[Clustering] Python: scipy module found.
+[Clustering] Python: sklearn module found.
+[Clustering] Python Sorted:  [[4, 1.77254652165764], [2, 1.3746148970130547], [8, 1.0615992292122662], [6, 0.501693093035831], [10, 0.4084616907721186], [7, 1.7763568394002505e-15], [3, 8.881784197001252e-16], [5, 8.881784197001252e-16], [9, 8.881784197001252e-16]]
+[Clustering] Python Significant Pairs:  [[2, 1.3746148970130547], [4, 1.77254652165764], [6, 0.501693093035831], [8, 1.0615992292122662], [10, 0.4084616907721186]]
+[Clustering] Python maxgap:  1.3746148970130547
+[Clustering] Python maxid:  2
+[Clustering] Python Percentage average over max gap:  0.3385355049961446
+[Clustering] Python chosen k:  2
+ber of objects: 12
+[ttkMandatoryCriticalPoints] Number of clusters: 2
+[ttkMandatoryCriticalPoints] Number of bins: 5
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster1' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster1' as upper bound...
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster0' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster0' as upper bound...
+[ContourTree] JoinTree computed in 2.84999 s. (n: 1500000, a:1682)
+[ContourTree] JoinTree computed in 3.03835 s. (n: 1500000, a:4003)
+[ContourTree] JoinTree computed in 2.75631 s. (n: 1500000, a:1615)
+[ContourTree] JoinTree computed in 2.97293 s. (n: 1500000, a:1939)
+[ContourTree] SplitTree computed in 2.79211 s. (n: 1500000, a:1799)
+[ContourTree] SplitTree computed in 2.9347 s. (n: 1500000, a:1825)
+[ContourTree] SplitTree computed in 2.8135 s. (n: 1500000, a:1855)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 11.4675 s. (16 thread(s)).
+[MandatoryCriticalPoints] 5 mandatory minima computed in 0.001091 s. (16 thread(s))
+[MandatoryCriticalPoints] 4 mandatory maxima computed in 0.000592947 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 4.31538e-05s.
+[LowestCommonAncestor] Preprocessed queries in 5.96046e-06s.
+[MandatoryCriticalPoints] 3 mandatory join saddles computed in 0.000378132 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 5.00679e-06s.
+[LowestCommonAncestor] Preprocessed queries in 3.8147e-06s.
+[MandatoryCriticalPoints] 2 mandatory split saddles computed in 0.000285864 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1500000 points) processed in 11.495 s. (16 thread(s)).
+[ContourTree] SplitTree computed in 3.08316 s. (n: 1500000, a:3562)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 12.2729 s. (16 thread(s)).
+[MandatoryCriticalPoints] 8 mandatory minima computed in 0.0122521 s. (16 thread(s))
+[MandatoryCriticalPoints] 5 mandatory maxima computed in 0.015306 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 3.88622e-05s.
+[LowestCommonAncestor] Preprocessed queries in 2.19345e-05s.
+[MandatoryCriticalPoints] 2 mandatory join saddles computed in 0.002774 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 2.31266e-05s.
+[LowestCommonAncestor] Preprocessed queries in 1.40667e-05s.
+[MandatoryCriticalPoints] 2 mandatory split saddles computed in 0.00205898 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1500000 points) processed in 12.3273 s. (16 thread(s)).
+[ttkMandatoryCriticalPoints] Memory usage: 287.968 MB, elapsed time: 13.9789
+[Common] Goodbye :)

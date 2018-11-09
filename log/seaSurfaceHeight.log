@@ -1,0 +1,2832 @@
+[Common]  _____ _____ _  __                       __  __    ____   ___  _  ___
+[Common] |_   _|_   _| |/ /                      / /__\ \  |___ \ / _ \/ |( _ )
+[Common]   | |   | | | ' /                      | |/ __| |   __) | | | | |/ _ \
+[Common]   | |   | | | . \                      | | (__| |  / __/| |_| | | (_) |
+[Common]   |_|   |_| |_|\_\                     | |\___| | |_____|\___/|_|\___/
+[Common]                                         \_\  /_/
+[Common] Welcome!
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[ttkSortScalarField] Memory usage: 0.0322266 MB.
+[ttkSortScalarField] Memory usage: 0.0302734 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[ttkPersistenceMap] Processing 20120111 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0612249
+[FTM] init in            0.00873089
+[FTM] sort step in       0.0789149
+[FTM] leafSearch JT in   0.110604
+[FTM] leafGrowth JT in   0.198429
+[FTM] trunk JT in        0.0242441
+[FTM] leafSearch ST in   0.112207
+[FTM] leafGrowth ST in   0.252425
+[FTM] trunk ST in        0.0296061
+[FTM] merge trees  in    0.727712
+[FTM] build tree in      0.72772
+[FTM] Total  in          0.815445
+[PersistenceMap] Maximum persistences: 1.89556 (second: 1.89556)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89556
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.03165 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120115 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0620081
+[FTM] init in            0.0120029
+[FTM] sort step in       0.092016
+[FTM] leafSearch JT in   0.116639
+[FTM] leafGrowth JT in   0.225149
+[FTM] trunk JT in        0.024965
+[FTM] leafSearch ST in   0.111377
+[FTM] leafGrowth ST in   0.239199
+[FTM] trunk ST in        0.0265801
+[FTM] merge trees  in    0.744081
+[FTM] build tree in      0.744084
+[FTM] Total  in          0.848144
+[PersistenceMap] Maximum persistences: 1.88669 (second: 1.88669)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88669
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.95056 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120116 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0583379
+[FTM] init in            0.0136909
+[FTM] sort step in       0.0812371
+[FTM] leafSearch JT in   0.110157
+[FTM] leafGrowth JT in   0.2192
+[FTM] trunk JT in        0.025095
+[FTM] leafSearch ST in   0.112377
+[FTM] leafGrowth ST in   0.241075
+[FTM] trunk ST in        0.0267251
+[FTM] merge trees  in    0.734779
+[FTM] build tree in      0.734783
+[FTM] Total  in          0.829764
+[PersistenceMap] Maximum persistences: 1.88779 (second: 1.88779)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88779
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.972 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120117 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.06216
+[FTM] init in            0.014287
+[FTM] sort step in       0.084281
+[FTM] leafSearch JT in   0.109918
+[FTM] leafGrowth JT in   0.236406
+[FTM] trunk JT in        0.0263338
+[FTM] leafSearch ST in   0.11628
+[FTM] leafGrowth ST in   0.251222
+[FTM] trunk ST in        0.0258
+[FTM] merge trees  in    0.766091
+[FTM] build tree in      0.766095
+[FTM] Total  in          0.864715
+[PersistenceMap] Maximum persistences: 1.90663 (second: 1.90663)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.90663
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.96096 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120118 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0318701
+[FTM] init in            0.014189
+[FTM] sort step in       0.0780239
+[FTM] leafSearch JT in   0.116823
+[FTM] leafGrowth JT in   0.239424
+[FTM] trunk JT in        0.0257511
+[FTM] leafSearch ST in   0.110825
+[FTM] leafGrowth ST in   0.268142
+[FTM] trunk ST in        0.0249381
+[FTM] merge trees  in    0.786061
+[FTM] build tree in      0.786065
+[FTM] Total  in          0.878321
+[PersistenceMap] Maximum persistences: 1.89102 (second: 1.89102)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89102
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.91241 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120119 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0320139
+[FTM] init in            0.0146351
+[FTM] sort step in       0.076375
+[FTM] leafSearch JT in   0.110975
+[FTM] leafGrowth JT in   0.236692
+[FTM] trunk JT in        0.0256701
+[FTM] leafSearch ST in   0.110819
+[FTM] leafGrowth ST in   0.253216
+[FTM] trunk ST in        0.024508
+[FTM] merge trees  in    0.76204
+[FTM] build tree in      0.762055
+[FTM] Total  in          0.853111
+[PersistenceMap] Maximum persistences: 1.89479 (second: 1.89479)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89479
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.86422 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120120 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0682869
+[FTM] init in            0.016042
+[FTM] sort step in       0.0847631
+[FTM] leafSearch JT in   0.112646
+[FTM] leafGrowth JT in   0.240978
+[FTM] trunk JT in        0.025001
+[FTM] leafSearch ST in   0.112128
+[FTM] leafGrowth ST in   0.273245
+[FTM] trunk ST in        0.027879
+[FTM] merge trees  in    0.79202
+[FTM] build tree in      0.792023
+[FTM] Total  in          0.892888
+[PersistenceMap] Maximum persistences: 1.89793 (second: 1.89793)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89793
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.11021 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120121 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.051198
+[FTM] init in            0.0152009
+[FTM] sort step in       0.084353
+[FTM] leafSearch JT in   0.113155
+[FTM] leafGrowth JT in   0.238103
+[FTM] trunk JT in        0.0255849
+[FTM] leafSearch ST in   0.110719
+[FTM] leafGrowth ST in   0.265337
+[FTM] trunk ST in        0.0248711
+[FTM] merge trees  in    0.777927
+[FTM] build tree in      0.777931
+[FTM] Total  in          0.877541
+[PersistenceMap] Maximum persistences: 1.89631 (second: 1.89631)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89631
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.01126 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120122 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.031451
+[FTM] init in            0.0160151
+[FTM] sort step in       0.0839131
+[FTM] leafSearch JT in   0.110846
+[FTM] leafGrowth JT in   0.237542
+[FTM] trunk JT in        0.0249031
+[FTM] leafSearch ST in   0.109984
+[FTM] leafGrowth ST in   0.277647
+[FTM] trunk ST in        0.0238829
+[FTM] merge trees  in    0.784924
+[FTM] build tree in      0.784928
+[FTM] Total  in          0.884904
+[PersistenceMap] Maximum persistences: 1.90492 (second: 1.90492)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.90492
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.87627 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120123 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0720401
+[FTM] init in            0.028868
+[FTM] sort step in       0.0800791
+[FTM] leafSearch JT in   0.110023
+[FTM] leafGrowth JT in   0.250563
+[FTM] trunk JT in        0.0263162
+[FTM] leafSearch ST in   0.11994
+[FTM] leafGrowth ST in   0.296808
+[FTM] trunk ST in        0.0281491
+[FTM] merge trees  in    0.831987
+[FTM] build tree in      0.831991
+[FTM] Total  in          0.940989
+[PersistenceMap] Maximum persistences: 1.89317 (second: 1.89317)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89317
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.09809 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120128 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.066473
+[FTM] init in            0.0166841
+[FTM] sort step in       0.0836868
+[FTM] leafSearch JT in   0.110682
+[FTM] leafGrowth JT in   0.257005
+[FTM] trunk JT in        0.0260999
+[FTM] leafSearch ST in   0.1199
+[FTM] leafGrowth ST in   0.249358
+[FTM] trunk ST in        0.0266709
+[FTM] merge trees  in    0.789881
+[FTM] build tree in      0.789888
+[FTM] Total  in          0.890321
+[PersistenceMap] Maximum persistences: 1.89109 (second: 1.89109)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89109
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.85066 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120129 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0676801
+[FTM] init in            0.01703
+[FTM] sort step in       0.082022
+[FTM] leafSearch JT in   0.110291
+[FTM] leafGrowth JT in   0.249888
+[FTM] trunk JT in        0.028348
+[FTM] leafSearch ST in   0.109954
+[FTM] leafGrowth ST in   0.25273
+[FTM] trunk ST in        0.0283079
+[FTM] merge trees  in    0.779648
+[FTM] build tree in      0.779652
+[FTM] Total  in          0.878743
+[PersistenceMap] Maximum persistences: 1.89077 (second: 1.89077)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89077
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.81809 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120419 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0696111
+[FTM] init in            0.017148
+[FTM] sort step in       0.08213
+[FTM] leafSearch JT in   0.110064
+[FTM] leafGrowth JT in   0.264358
+[FTM] trunk JT in        0.0253401
+[FTM] leafSearch ST in   0.109945
+[FTM] leafGrowth ST in   0.255248
+[FTM] trunk ST in        0.025795
+[FTM] merge trees  in    0.79089
+[FTM] build tree in      0.790895
+[FTM] Total  in          0.890217
+[PersistenceMap] Maximum persistences: 1.88853 (second: 1.88853)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88853
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.89106 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120420 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.068923
+[FTM] init in            0.017695
+[FTM] sort step in       0.0804591
+[FTM] leafSearch JT in   0.115421
+[FTM] leafGrowth JT in   0.258456
+[FTM] trunk JT in        0.026032
+[FTM] leafSearch ST in   0.116089
+[FTM] leafGrowth ST in   0.262589
+[FTM] trunk ST in        0.0260611
+[FTM] merge trees  in    0.804781
+[FTM] build tree in      0.804784
+[FTM] Total  in          0.902981
+[PersistenceMap] Maximum persistences: 1.89481 (second: 1.89481)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89481
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.04343 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120421 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0685539
+[FTM] init in            0.0177851
+[FTM] sort step in       0.0811269
+[FTM] leafSearch JT in   0.111019
+[FTM] leafGrowth JT in   0.249134
+[FTM] trunk JT in        0.024847
+[FTM] leafSearch ST in   0.11001
+[FTM] leafGrowth ST in   0.248908
+[FTM] trunk ST in        0.0251539
+[FTM] merge trees  in    0.7692
+[FTM] build tree in      0.769205
+[FTM] Total  in          0.868165
+[PersistenceMap] Maximum persistences: 1.90499 (second: 1.90499)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.90499
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.87231 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120422 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.067848
+[FTM] init in            0.0177882
+[FTM] sort step in       0.080024
+[FTM] leafSearch JT in   0.111169
+[FTM] leafGrowth JT in   0.247583
+[FTM] trunk JT in        0.0248151
+[FTM] leafSearch ST in   0.109844
+[FTM] leafGrowth ST in   0.242359
+[FTM] trunk ST in        0.0252872
+[FTM] merge trees  in    0.761187
+[FTM] build tree in      0.761192
+[FTM] Total  in          0.85905
+[PersistenceMap] Maximum persistences: 1.91542 (second: 1.91542)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.91542
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.90239 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120423 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0351319
+[FTM] init in            0.0179441
+[FTM] sort step in       0.0799041
+[FTM] leafSearch JT in   0.110501
+[FTM] leafGrowth JT in   0.24481
+[FTM] trunk JT in        0.0248191
+[FTM] leafSearch ST in   0.109909
+[FTM] leafGrowth ST in   0.239601
+[FTM] trunk ST in        0.0252411
+[FTM] merge trees  in    0.755015
+[FTM] build tree in      0.75502
+[FTM] Total  in          0.852915
+[PersistenceMap] Maximum persistences: 1.90215 (second: 1.90215)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.90215
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.79649 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120424 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0707881
+[FTM] init in            0.0179539
+[FTM] sort step in       0.0806201
+[FTM] leafSearch JT in   0.11025
+[FTM] leafGrowth JT in   0.252835
+[FTM] trunk JT in        0.02479
+[FTM] leafSearch ST in   0.109939
+[FTM] leafGrowth ST in   0.250224
+[FTM] trunk ST in        0.02511
+[FTM] merge trees  in    0.77328
+[FTM] build tree in      0.773284
+[FTM] Total  in          0.871904
+[PersistenceMap] Maximum persistences: 1.88794 (second: 1.88794)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88794
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.8852 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120425 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0345771
+[FTM] init in            0.017868
+[FTM] sort step in       0.0753431
+[FTM] leafSearch JT in   0.10961
+[FTM] leafGrowth JT in   0.246186
+[FTM] trunk JT in        0.0249369
+[FTM] leafSearch ST in   0.109953
+[FTM] leafGrowth ST in   0.24532
+[FTM] trunk ST in        0.0251131
+[FTM] merge trees  in    0.76129
+[FTM] build tree in      0.761297
+[FTM] Total  in          0.854568
+[PersistenceMap] Maximum persistences: 1.89418 (second: 1.89418)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89418
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.76087 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120426 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0699551
+[FTM] init in            0.0171671
+[FTM] sort step in       0.0821028
+[FTM] leafSearch JT in   0.112559
+[FTM] leafGrowth JT in   0.24786
+[FTM] trunk JT in        0.0247109
+[FTM] leafSearch ST in   0.110156
+[FTM] leafGrowth ST in   0.241611
+[FTM] trunk ST in        0.025404
+[FTM] merge trees  in    0.76248
+[FTM] build tree in      0.762488
+[FTM] Total  in          0.861812
+[PersistenceMap] Maximum persistences: 1.88942 (second: 1.88942)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88942
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.75915 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120427 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0706489
+[FTM] init in            0.016772
+[FTM] sort step in       0.0804932
+[FTM] leafSearch JT in   0.109625
+[FTM] leafGrowth JT in   0.253951
+[FTM] trunk JT in        0.024698
+[FTM] leafSearch ST in   0.109817
+[FTM] leafGrowth ST in   0.243283
+[FTM] trunk ST in        0.025089
+[FTM] merge trees  in    0.766632
+[FTM] build tree in      0.766638
+[FTM] Total  in          0.863961
+[PersistenceMap] Maximum persistences: 1.89471 (second: 1.89471)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89471
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.81618 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120428 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.04619
+[FTM] init in            0.0178182
+[FTM] sort step in       0.0821528
+[FTM] leafSearch JT in   0.109858
+[FTM] leafGrowth JT in   0.250331
+[FTM] trunk JT in        0.024792
+[FTM] leafSearch ST in   0.109898
+[FTM] leafGrowth ST in   0.242378
+[FTM] trunk ST in        0.025537
+[FTM] merge trees  in    0.762926
+[FTM] build tree in      0.76293
+[FTM] Total  in          0.862948
+[PersistenceMap] Maximum persistences: 1.88465 (second: 1.88465)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88465
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.74301 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120429 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0711582
+[FTM] init in            0.0180969
+[FTM] sort step in       0.080544
+[FTM] leafSearch JT in   0.110857
+[FTM] leafGrowth JT in   0.253733
+[FTM] trunk JT in        0.024718
+[FTM] leafSearch ST in   0.109863
+[FTM] leafGrowth ST in   0.250573
+[FTM] trunk ST in        0.0253649
+[FTM] merge trees  in    0.775246
+[FTM] build tree in      0.775251
+[FTM] Total  in          0.873936
+[PersistenceMap] Maximum persistences: 1.86741 (second: 1.86741)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.86741
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.8425 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120430 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.03666
+[FTM] init in            0.0190179
+[FTM] sort step in       0.079282
+[FTM] leafSearch JT in   0.109701
+[FTM] leafGrowth JT in   0.24841
+[FTM] trunk JT in        0.024833
+[FTM] leafSearch ST in   0.110063
+[FTM] leafGrowth ST in   0.244081
+[FTM] trunk ST in        0.0264089
+[FTM] merge trees  in    0.763641
+[FTM] build tree in      0.763645
+[FTM] Total  in          0.86201
+[PersistenceMap] Maximum persistences: 1.85871 (second: 1.85871)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.85871
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.80278 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120711 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.032979
+[FTM] init in            0.017597
+[FTM] sort step in       0.0791171
+[FTM] leafSearch JT in   0.110813
+[FTM] leafGrowth JT in   0.24573
+[FTM] trunk JT in        0.024868
+[FTM] leafSearch ST in   0.109928
+[FTM] leafGrowth ST in   0.248449
+[FTM] trunk ST in        0.0249369
+[FTM] merge trees  in    0.764868
+[FTM] build tree in      0.764874
+[FTM] Total  in          0.861631
+[PersistenceMap] Maximum persistences: 1.86613 (second: 1.86613)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.86613
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.85423 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120712 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0757859
+[FTM] init in            0.0173631
+[FTM] sort step in       0.0858359
+[FTM] leafSearch JT in   0.112165
+[FTM] leafGrowth JT in   0.270732
+[FTM] trunk JT in        0.0265241
+[FTM] leafSearch ST in   0.1162
+[FTM] leafGrowth ST in   0.258363
+[FTM] trunk ST in        0.0252569
+[FTM] merge trees  in    0.80942
+[FTM] build tree in      0.809425
+[FTM] Total  in          0.912676
+[PersistenceMap] Maximum persistences: 1.88121 (second: 1.88121)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88121
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.94245 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120713 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0422969
+[FTM] init in            0.016922
+[FTM] sort step in       0.077383
+[FTM] leafSearch JT in   0.110225
+[FTM] leafGrowth JT in   0.246973
+[FTM] trunk JT in        0.0253408
+[FTM] leafSearch ST in   0.10996
+[FTM] leafGrowth ST in   0.260209
+[FTM] trunk ST in        0.024497
+[FTM] merge trees  in    0.777361
+[FTM] build tree in      0.777366
+[FTM] Total  in          0.871722
+[PersistenceMap] Maximum persistences: 1.88694 (second: 1.88694)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.88694
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.98921 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120714 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.034369
+[FTM] init in            0.017915
+[FTM] sort step in       0.0853961
+[FTM] leafSearch JT in   0.114458
+[FTM] leafGrowth JT in   0.255977
+[FTM] trunk JT in        0.0266321
+[FTM] leafSearch ST in   0.111653
+[FTM] leafGrowth ST in   0.25589
+[FTM] trunk ST in        0.0247569
+[FTM] merge trees  in    0.78951
+[FTM] build tree in      0.789513
+[FTM] Total  in          0.892883
+[PersistenceMap] Maximum persistences: 1.89685 (second: 1.89685)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89685
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.26785 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120715 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.072695
+[FTM] init in            0.019176
+[FTM] sort step in       0.081336
+[FTM] leafSearch JT in   0.113067
+[FTM] leafGrowth JT in   0.274326
+[FTM] trunk JT in        0.031461
+[FTM] leafSearch ST in   0.111829
+[FTM] leafGrowth ST in   0.282486
+[FTM] trunk ST in        0.0274439
+[FTM] merge trees  in    0.840767
+[FTM] build tree in      0.84077
+[FTM] Total  in          0.941331
+[PersistenceMap] Maximum persistences: 1.91484 (second: 1.91484)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.91484
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.03032 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120716 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.072753
+[FTM] init in            0.017612
+[FTM] sort step in       0.0846381
+[FTM] leafSearch JT in   0.109722
+[FTM] leafGrowth JT in   0.256927
+[FTM] trunk JT in        0.025625
+[FTM] leafSearch ST in   0.109956
+[FTM] leafGrowth ST in   0.270601
+[FTM] trunk ST in        0.024339
+[FTM] merge trees  in    0.797306
+[FTM] build tree in      0.797311
+[FTM] Total  in          0.899611
+[PersistenceMap] Maximum persistences: 1.91264 (second: 1.91264)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.91264
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.93244 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120717 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0753679
+[FTM] init in            0.0184731
+[FTM] sort step in       0.0824261
+[FTM] leafSearch JT in   0.110374
+[FTM] leafGrowth JT in   0.264349
+[FTM] trunk JT in        0.0256388
+[FTM] leafSearch ST in   0.110189
+[FTM] leafGrowth ST in   0.261277
+[FTM] trunk ST in        0.0246081
+[FTM] merge trees  in    0.796581
+[FTM] build tree in      0.796586
+[FTM] Total  in          0.89753
+[PersistenceMap] Maximum persistences: 1.89739 (second: 1.89739)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.89739
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.94384 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120718 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0332439
+[FTM] init in            0.017309
+[FTM] sort step in       0.0788
+[FTM] leafSearch JT in   0.111124
+[FTM] leafGrowth JT in   0.246921
+[FTM] trunk JT in        0.0256209
+[FTM] leafSearch ST in   0.110611
+[FTM] leafGrowth ST in   0.268181
+[FTM] trunk ST in        0.024955
+[FTM] merge trees  in    0.787544
+[FTM] build tree in      0.787547
+[FTM] Total  in          0.883703
+[PersistenceMap] Maximum persistences: 1.90383 (second: 1.90383)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.90383
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.9484 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120719 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.048068
+[FTM] init in            0.0188129
+[FTM] sort step in       0.0798252
+[FTM] leafSearch JT in   0.110341
+[FTM] leafGrowth JT in   0.256506
+[FTM] trunk JT in        0.025455
+[FTM] leafSearch ST in   0.110225
+[FTM] leafGrowth ST in   0.27137
+[FTM] trunk ST in        0.024374
+[FTM] merge trees  in    0.798418
+[FTM] build tree in      0.798422
+[FTM] Total  in          0.897119
+[PersistenceMap] Maximum persistences: 1.92421 (second: 1.92421)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.92421
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.91117 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120720 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0749319
+[FTM] init in            0.0196068
+[FTM] sort step in       0.0811419
+[FTM] leafSearch JT in   0.111409
+[FTM] leafGrowth JT in   0.263369
+[FTM] trunk JT in        0.026058
+[FTM] leafSearch ST in   0.110259
+[FTM] leafGrowth ST in   0.282827
+[FTM] trunk ST in        0.0251122
+[FTM] merge trees  in    0.819138
+[FTM] build tree in      0.819141
+[FTM] Total  in          0.919933
+[PersistenceMap] Maximum persistences: 1.94358 (second: 1.94358)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.94358
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.95196 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120721 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.074445
+[FTM] init in            0.0188761
+[FTM] sort step in       0.0835621
+[FTM] leafSearch JT in   0.109705
+[FTM] leafGrowth JT in   0.263735
+[FTM] trunk JT in        0.025821
+[FTM] leafSearch ST in   0.109928
+[FTM] leafGrowth ST in   0.285037
+[FTM] trunk ST in        0.022835
+[FTM] merge trees  in    0.817185
+[FTM] build tree in      0.81719
+[FTM] Total  in          0.919675
+[PersistenceMap] Maximum persistences: 1.93356 (second: 1.93356)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.93356
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.97528 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20120722 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0328171
+[FTM] init in            0.0182741
+[FTM] sort step in       0.079175
+[FTM] leafSearch JT in   0.11014
+[FTM] leafGrowth JT in   0.249863
+[FTM] trunk JT in        0.0253501
+[FTM] leafSearch ST in   0.110198
+[FTM] leafGrowth ST in   0.303036
+[FTM] trunk ST in        0.0234301
+[FTM] merge trees  in    0.822123
+[FTM] build tree in      0.822126
+[FTM] Total  in          0.91962
+[PersistenceMap] Maximum persistences: 1.92059 (second: 1.92059)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.92059
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 4.85488 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121008 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.077409
+[FTM] init in            0.0191121
+[FTM] sort step in       0.083827
+[FTM] leafSearch JT in   0.11118
+[FTM] leafGrowth JT in   0.255926
+[FTM] trunk JT in        0.026149
+[FTM] leafSearch ST in   0.109964
+[FTM] leafGrowth ST in   0.362918
+[FTM] trunk ST in        0.02108
+[FTM] merge trees  in    0.887353
+[FTM] build tree in      0.887358
+[FTM] Total  in          0.990344
+[PersistenceMap] Maximum persistences: 1.96791 (second: 1.96791)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.96791
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.07066 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121009 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.075542
+[FTM] init in            0.020052
+[FTM] sort step in       0.0815501
+[FTM] leafSearch JT in   0.109805
+[FTM] leafGrowth JT in   0.258091
+[FTM] trunk JT in        0.0259402
+[FTM] leafSearch ST in   0.109977
+[FTM] leafGrowth ST in   0.342922
+[FTM] trunk ST in        0.0218639
+[FTM] merge trees  in    0.868743
+[FTM] build tree in      0.868747
+[FTM] Total  in          0.970398
+[PersistenceMap] Maximum persistences: 1.98122 (second: 1.98122)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.98122
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.01551 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121010 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.074455
+[FTM] init in            0.019727
+[FTM] sort step in       0.086004
+[FTM] leafSearch JT in   0.109884
+[FTM] leafGrowth JT in   0.2579
+[FTM] trunk JT in        0.026073
+[FTM] leafSearch ST in   0.11004
+[FTM] leafGrowth ST in   0.3362
+[FTM] trunk ST in        0.022325
+[FTM] merge trees  in    0.86257
+[FTM] build tree in      0.862574
+[FTM] Total  in          0.968355
+[PersistenceMap] Maximum persistences: 1.97801 (second: 1.97801)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.97801
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.05652 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121011 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0737391
+[FTM] init in            0.019697
+[FTM] sort step in       0.0900991
+[FTM] leafSearch JT in   0.110261
+[FTM] leafGrowth JT in   0.258013
+[FTM] trunk JT in        0.0262492
+[FTM] leafSearch ST in   0.109979
+[FTM] leafGrowth ST in   0.323109
+[FTM] trunk ST in        0.0230181
+[FTM] merge trees  in    0.850756
+[FTM] build tree in      0.850761
+[FTM] Total  in          0.960601
+[PersistenceMap] Maximum persistences: 1.97573 (second: 1.97573)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.97573
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.01241 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121012 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0327141
+[FTM] init in            0.0186388
+[FTM] sort step in       0.0796719
+[FTM] leafSearch JT in   0.110993
+[FTM] leafGrowth JT in   0.237197
+[FTM] trunk JT in        0.0258219
+[FTM] leafSearch ST in   0.110013
+[FTM] leafGrowth ST in   0.32764
+[FTM] trunk ST in        0.0230579
+[FTM] merge trees  in    0.834854
+[FTM] build tree in      0.834858
+[FTM] Total  in          0.933208
+[PersistenceMap] Maximum persistences: 1.96333 (second: 1.96333)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.96333
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.01222 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121016 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0761631
+[FTM] init in            0.020386
+[FTM] sort step in       0.0793788
+[FTM] leafSearch JT in   0.112976
+[FTM] leafGrowth JT in   0.256709
+[FTM] trunk JT in        0.0266869
+[FTM] leafSearch ST in   0.110368
+[FTM] leafGrowth ST in   0.323064
+[FTM] trunk ST in        0.0240531
+[FTM] merge trees  in    0.853978
+[FTM] build tree in      0.853981
+[FTM] Total  in          0.953787
+[PersistenceMap] Maximum persistences: 1.94875 (second: 1.94875)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.94875
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.08358 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121017 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0752079
+[FTM] init in            0.019237
+[FTM] sort step in       0.080446
+[FTM] leafSearch JT in   0.111348
+[FTM] leafGrowth JT in   0.274061
+[FTM] trunk JT in        0.029418
+[FTM] leafSearch ST in   0.110019
+[FTM] leafGrowth ST in   0.353231
+[FTM] trunk ST in        0.024595
+[FTM] merge trees  in    0.90279
+[FTM] build tree in      0.902795
+[FTM] Total  in          1.00253
+[PersistenceMap] Maximum persistences: 1.96408 (second: 1.96408)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.96408
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.16089 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121018 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.075371
+[FTM] init in            0.0194449
+[FTM] sort step in       0.078505
+[FTM] leafSearch JT in   0.11407
+[FTM] leafGrowth JT in   0.257661
+[FTM] trunk JT in        0.0263071
+[FTM] leafSearch ST in   0.109981
+[FTM] leafGrowth ST in   0.346806
+[FTM] trunk ST in        0.0227349
+[FTM] merge trees  in    0.877678
+[FTM] build tree in      0.877682
+[FTM] Total  in          0.975672
+[PersistenceMap] Maximum persistences: 1.95398 (second: 1.95398)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.95398
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.10213 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121019 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0327671
+[FTM] init in            0.0180559
+[FTM] sort step in       0.078393
+[FTM] leafSearch JT in   0.109763
+[FTM] leafGrowth JT in   0.237385
+[FTM] trunk JT in        0.025672
+[FTM] leafSearch ST in   0.110021
+[FTM] leafGrowth ST in   0.352046
+[FTM] trunk ST in        0.0220649
+[FTM] merge trees  in    0.857104
+[FTM] build tree in      0.857111
+[FTM] Total  in          0.953621
+[PersistenceMap] Maximum persistences: 1.93192 (second: 1.93192)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.93192
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.00454 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121020 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.0776889
+[FTM] init in            0.0194259
+[FTM] sort step in       0.0815072
+[FTM] leafSearch JT in   0.110017
+[FTM] leafGrowth JT in   0.260027
+[FTM] trunk JT in        0.0264499
+[FTM] leafSearch ST in   0.110003
+[FTM] leafGrowth ST in   0.356894
+[FTM] trunk ST in        0.023252
+[FTM] merge trees  in    0.886776
+[FTM] build tree in      0.886781
+[FTM] Total  in          0.98777
+[PersistenceMap] Maximum persistences: 1.95713 (second: 1.95713)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.95713
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.12797 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121022 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.033453
+[FTM] init in            0.0180001
+[FTM] sort step in       0.0790529
+[FTM] leafSearch JT in   0.109642
+[FTM] leafGrowth JT in   0.242767
+[FTM] trunk JT in        0.0258648
+[FTM] leafSearch ST in   0.110371
+[FTM] leafGrowth ST in   0.347363
+[FTM] trunk ST in        0.024955
+[FTM] merge trees  in    0.861098
+[FTM] build tree in      0.861103
+[FTM] Total  in          0.958227
+[PersistenceMap] Maximum persistences: 1.9517 (second: 1.9517)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.9517
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.0067 s. (16 thread(s)).
+[ttkPersistenceMap] Processing 20121023 scalar field...
+[PersistenceMap] Computing persistence map...
+[PersistenceMap]   persistenceThreshold: 0.1
+[PersistenceMap]   persistenceScale: 0.5
+[PersistenceMap]   persistenceSpread: 0.01
+[PersistenceMap]   defaultAmplitude: 0
+[PersistenceMap]   defaultDeviation: 0
+[PersistenceMap]   criticalType: 1
+------------
+[FTM] number of threads : 1
+* debug lvl  : 3
+* tree type  : Join + Split
+------------
+[FTM] alloc in           0.079855
+[FTM] init in            0.0194879
+[FTM] sort step in       0.0886729
+[FTM] leafSearch JT in   0.111704
+[FTM] leafGrowth JT in   0.264211
+[FTM] trunk JT in        0.026207
+[FTM] leafSearch ST in   0.110221
+[FTM] leafGrowth ST in   0.350743
+[FTM] trunk ST in        0.0244899
+[FTM] merge trees  in    0.887723
+[FTM] build tree in      0.887729
+[FTM] Total  in          0.995945
+[PersistenceMap] Maximum persistences: 1.94249 (second: 1.94249)
+[PersistenceMap] Minimum persistences: -2 (second: -2)
+[PersistenceMap] Selected maximum persistence: 1.94249
+[PersistenceMap] Max distance: 1.11202
+[PersistenceMap] Data-set (1036800 points) processed in 5.05431 s. (16 thread(s)).
+[ttkPersistenceMap] Memory usage: 552.56 MB.
+[ttkPersistenceMap] Batchmode processed overall in 238.058 s.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[LDistance] Distance: 5.14711
+[LDistance] Distance: 11.6542
+[LDistance] Distance: 14.3048
+[LDistance] Distance: 12.2702
+[LDistance] Distance: 2.73165
+[LDistance] Distance: 11.7207
+[LDistance] Distance: 4.24104
+[LDistance] Distance: 1.90996
+[LDistance] Distance: 11.3691
+[LDistance] Distance: 3.25967
+[LDistance] Distance: 3.78618
+[LDistance] Distance: 11.0195
+[LDistance] Distance: 10.9341
+[LDistance] Distance: 11.9798
+[LDistance] Distance: 10.6929
+[LDistance] Distance: 12.2221
+[LDistance] Distance: 11.6188
+[LDistance] Distance: 10.7185
+[LDistance] Distance: 14.0455
+[LDistance] Distance: 12.5876
+[LDistance] Distance: 2.91354
+[LDistance] Distance: 11.9102
+[LDistance] Distance: 10.1577
+[LDistance] Distance: 11.8138
+[LDistance] Distance: 3.98023
+[LDistance] Distance: 10.4211
+[LDistance] Distance: 10.9482
+[LDistance] Distance: 4.709
+[LDistance] Distance: 11.6731
+[LDistance] Distance: 3.23222
+[LDistance] Distance: 3.98556
+[LDistance] Distance: 12.2773
+[LDistance] Distance: 11.4856
+[LDistance] Distance: 10.5886
+[LDistance] Distance: 14.0828
+[LDistance] Distance: 12.639
+[LDistance] Distance: 2.88434
+[LDistance] Distance: 11.9445
+[LDistance] Distance: 10.068
+[LDistance] Distance: 13.7972
+[LDistance] Distance: 10.4204
+[LDistance] Distance: 4.78277
+[LDistance] Distance: 11.5353
+[LDistance] Distance: 5.75126
+[LDistance] Distance: 5.23206
+[LDistance] Distance: 4.18166
+[LDistance] Distance: 12.5589
+[LDistance] Distance: 11.4237
+[LDistance] Distance: 10.559
+[LDistance] Distance: 14.2153
+[LDistance] Distance: 12.5225
+[LDistance] Distance: 11.8063
+[LDistance] Distance: 3.29356
+[LDistance] Distance: 10.1078
+[LDistance] Distance: 13.4169
+[LDistance] Distance: 10.4872
+[LDistance] Distance: 10.3224
+[LDistance] Distance: 4.87577
+[LDistance] Distance: 11.5162
+[LDistance] Distance: 6.03993
+[LDistance] Distance: 4.09222
+[LDistance] Distance: 11.2494
+[LDistance] Distance: 12.3998
+[LDistance] Distance: 1.77059
+[LDistance] Distance: 1.83608
+[LDistance] Distance: 10.7109
+[LDistance] Distance: 1.5307
+[LDistance] Distance: 10.4114
+[LDistance] Distance: 13.3996
+[LDistance] Distance: 3.71005
+[LDistance] Distance: 10.6052
+[LDistance] Distance: 10.9941
+[LDistance] Distance: 12.3377
+[LDistance] Distance: 11.3393
+[LDistance] Distance: 4.08023
+[LDistance] Distance: 12.0599
+[LDistance] Distance: 5.4047
+[LDistance] Distance: 2.34637
+[LDistance] Distance: 5.23081
+[LDistance] Distance: 10.4175
+[LDistance] Distance: 2.66965
+[LDistance] Distance: 10.1199
+[LDistance] Distance: 2.32708
+[LDistance] Distance: 13.4341
+[LDistance] Distance: 11.1667
+[LDistance] Distance: 11.25
+[LDistance] Distance: 11.0807
+[LDistance] Distance: 11.965
+[LDistance] Distance: 4.60546
+[LDistance] Distance: 4.31426
+[LDistance] Distance: 11.9826
+[LDistance] Distance: 5.55756
+[LDistance] Distance: 5.23161
+[LDistance] Distance: 10.5978
+[LDistance] Distance: 5.66856
+[LDistance] Distance: 2.84397
+[LDistance] Distance: 11.1343
+[LDistance] Distance: 10.3056
+[LDistance] Distance: 2.48521
+[LDistance] Distance: 13.6401
+[LDistance] Distance: 11.2062
+[LDistance] Distance: 11.311
+[LDistance] Distance: 12.2247
+[LDistance] Distance: 10.6261
+[LDistance] Distance: 4.86372
+[LDistance] Distance: 11.987
+[LDistance] Distance: 4.44545
+[LDistance] Distance: 5.34191
+[LDistance] Distance: 5.72658
+[LDistance] Distance: 10.7429
+[LDistance] Distance: 5.80935
+[LDistance] Distance: 3.72299
+[LDistance] Distance: 11.7999
+[LDistance] Distance: 10.4635
+[LDistance] Distance: 3.27955
+[LDistance] Distance: 11.4453
+[LDistance] Distance: 13.928
+[LDistance] Distance: 11.3186
+[LDistance] Distance: 12.0458
+[LDistance] Distance: 10.7273
+[LDistance] Distance: 5.26167
+[LDistance] Distance: 11.9287
+[LDistance] Distance: 4.98943
+[LDistance] Distance: 5.54987
+[LDistance] Distance: 6.0363
+[LDistance] Distance: 10.8327
+[LDistance] Distance: 6.00298
+[LDistance] Distance: 4.30794
+[LDistance] Distance: 11.4973
+[LDistance] Distance: 10.544
+[LDistance] Distance: 10.7981
+[LDistance] Distance: 12.0928
+[LDistance] Distance: 13.9467
+[LDistance] Distance: 11.2789
+[LDistance] Distance: 11.7673
+[LDistance] Distance: 10.7111
+[LDistance] Distance: 5.73716
+[LDistance] Distance: 11.7965
+[LDistance] Distance: 11.2153
+[LDistance] Distance: 5.38003
+[LDistance] Distance: 5.97038
+[LDistance] Distance: 10.8874
+[LDistance] Distance: 6.29505
+[LDistance] Distance: 4.18062
+[LDistance] Distance: 11.3483
+[LDistance] Distance: 11.6319
+[LDistance] Distance: 10.5611
+[LDistance] Distance: 10.6327
+[LDistance] Distance: 14.0442
+[LDistance] Distance: 11.4278
+[LDistance] Distance: 11.8811
+[LDistance] Distance: 10.7267
+[LDistance] Distance: 5.81922
+[LDistance] Distance: 11.8923
+[LDistance] Distance: 10.9106
+[LDistance] Distance: 5.76667
+[LDistance] Distance: 6.40998
+[LDistance] Distance: 10.9155
+[LDistance] Distance: 11.409
+[LDistance] Distance: 4.60438
+[LDistance] Distance: 11.3576
+[LDistance] Distance: 11.6139
+[LDistance] Distance: 10.5611
+[LDistance] Distance: 10.6546
+[LDistance] Distance: 14.4944
+[LDistance] Distance: 11.8689
+[LDistance] Distance: 11.8807
+[LDistance] Distance: 10.8807
+[LDistance] Distance: 5.93877
+[LDistance] Distance: 11.6496
+[LDistance] Distance: 10.8015
+[LDistance] Distance: 6.17074
+[LDistance] Distance: 6.45592
+[LDistance] Distance: 11.2846
+[LDistance] Distance: 11.2702
+[LDistance] Distance: 5.29919
+[LDistance] Distance: 10.8531
+[LDistance] Distance: 11.7406
+[LDistance] Distance: 10.6004
+[LDistance] Distance: 10.9838
+[LDistance] Distance: 14.2782
+[LDistance] Distance: 12.5686
+[LDistance] Distance: 11.7961
+[LDistance] Distance: 11.2065
+[LDistance] Distance: 6.25084
+[LDistance] Distance: 11.637
+[LDistance] Distance: 10.9028
+[LDistance] Distance: 6.37945
+[LDistance] Distance: 13.0056
+[LDistance] Distance: 11.7408
+[LDistance] Distance: 11.2737
+[LDistance] Distance: 5.17863
+[LDistance] Distance: 10.9379
+[LDistance] Distance: 10.814
+[LDistance] Distance: 1.86623
+[LDistance] Distance: 11.3992
+[LDistance] Distance: 14.3809
+[LDistance] Distance: 11.2901
+[LDistance] Distance: 11.4805
+[LDistance] Distance: 11.8048
+[LDistance] Distance: 11.1532
+[LDistance] Distance: 11.7283
+[LDistance] Distance: 11.0539
+[LDistance] Distance: 6.35217
+[LDistance] Distance: 12.8187
+[LDistance] Distance: 13.7117
+[LDistance] Distance: 11.3797
+[LDistance] Distance: 5.60931
+[LDistance] Distance: 11.1496
+[LDistance] Distance: 11.2146
+[LDistance] Distance: 13.5273
+[LDistance] Distance: 2.3899
+[LDistance] Distance: 14.4974
+[LDistance] Distance: 10.7827
+[LDistance] Distance: 11.4907
+[LDistance] Distance: 10.7764
+[LDistance] Distance: 11.0798
+[LDistance] Distance: 11.3321
+[LDistance] Distance: 11.4862
+[LDistance] Distance: 6.56815
+[LDistance] Distance: 13.064
+[LDistance] Distance: 13.3012
+[LDistance] Distance: 5.66891
+[LDistance] Distance: 11.0189
+[LDistance] Distance: 11.2321
+[LDistance] Distance: 11.1277
+[LDistance] Distance: 13.119
+[LDistance] Distance: 2.6001
+[LDistance] Distance: 1.69797
+[LDistance] Distance: 10.7836
+[LDistance] Distance: 11.4037
+[LDistance] Distance: 10.3314
+[LDistance] Distance: 11.0773
+[LDistance] Distance: 11.3974
+[LDistance] Distance: 11.3001
+[LDistance] Distance: 12.764
+[LDistance] Distance: 12.8466
+[LDistance] Distance: 13.2917
+[LDistance] Distance: 1.79795
+[LDistance] Distance: 11.1677
+[LDistance] Distance: 11.3139
+[LDistance] Distance: 13.1213
+[LDistance] Distance: 11.1108
+[LDistance] Distance: 3.14953
+[LDistance] Distance: 2.05255
+[LDistance] Distance: 10.6828
+[LDistance] Distance: 11.2847
+[LDistance] Distance: 10.3121
+[LDistance] Distance: 11.2092
+[LDistance] Distance: 11.51
+[LDistance] Distance: 11.1936
+[LDistance] Distance: 12.3734
+[LDistance] Distance: 13.3785
+[LDistance] Distance: 12.3489
+[LDistance] Distance: 2.13375
+[LDistance] Distance: 11.334
+[LDistance] Distance: 11.7953
+[LDistance] Distance: 13.1669
+[LDistance] Distance: 11.276
+[LDistance] Distance: 4.72125
+[LDistance] Distance: 2.29741
+[LDistance] Distance: 11.013
+[LDistance] Distance: 11.7192
+[LDistance] Distance: 10.1805
+[LDistance] Distance: 11.8428
+[LDistance] Distance: 10.909
+[LDistance] Distance: 10.892
+[LDistance] Distance: 12.2597
+[LDistance] Distance: 13.5415
+[LDistance] Distance: 12.2131
+[LDistance] Distance: 3.11358
+[LDistance] Distance: 11.3614
+[LDistance] Distance: 11.9571
+[LDistance] Distance: 13.399
+[LDistance] Distance: 11.7
+[LDistance] Distance: 5.12091
+[LDistance] Distance: 11.5358
+[LDistance] Distance: 2.84137
+[LDistance] Distance: 11.4913
+[LDistance] Distance: 10.5241
+[LDistance] Distance: 12.0881
+[LDistance] Distance: 11.0105
+[LDistance] Distance: 10.9208
+[LDistance] Distance: 13.9072
+[LDistance] Distance: 12.1973
+[LDistance] Distance: 12.4245
+[LDistance] Distance: 4.12444
+[LDistance] Distance: 11.3772
+[LDistance] Distance: 11.9732
+[LDistance] Distance: 13.7943
+[LDistance] Distance: 12.3885
+[LDistance] Distance: 12.1062
+[LDistance] Distance: 11.4577
+[LDistance] Distance: 11.4694
+[LDistance] Distance: 10.4867
+[LDistance] Distance: 11.0108
+[LDistance] Distance: 12.0912
+[LDistance] Distance: 11.1268
+[LDistance] Distance: 11.1558
+[LDistance] Distance: 13.9199
+[LDistance] Distance: 12.3618
+[LDistance] Distance: 12.3185
+[LDistance] Distance: 3.99593
+[LDistance] Distance: 11.3353
+[LDistance] Distance: 11.8355
+[LDistance] Distance: 13.8127
+[LDistance] Distance: 11.3424
+[LDistance] Distance: 12.0318
+[LDistance] Distance: 11.6599
+[LDistance] Distance: 11.3824
+[LDistance] Distance: 10.3386
+[LDistance] Distance: 10.9672
+[LDistance] Distance: 11.9118
+[LDistance] Distance: 11.1992
+[LDistance] Distance: 11.2005
+[LDistance] Distance: 14.0202
+[LDistance] Distance: 12.607
+[LDistance] Distance: 12.2274
+[LDistance] Distance: 4.48157
+[LDistance] Distance: 13.9506
+[LDistance] Distance: 11.7192
+[LDistance] Distance: 1.55924
+[LDistance] Distance: 10.881
+[LDistance] Distance: 12.2925
+[LDistance] Distance: 12.2882
+[LDistance] Distance: 10.7649
+[LDistance] Distance: 10.3092
+[LDistance] Distance: 11.1681
+[LDistance] Distance: 1.87127
+[LDistance] Distance: 11.2108
+[LDistance] Distance: 11.1707
+[LDistance] Distance: 14.4874
+[LDistance] Distance: 12.7139
+[LDistance] Distance: 12.2067
+[LDistance] Distance: 5.30242
+[LDistance] Distance: 14.4414
+[LDistance] Distance: 12.1603
+[LDistance] Distance: 2.16318
+[LDistance] Distance: 10.8721
+[LDistance] Distance: 11.7074
+[LDistance] Distance: 12.1215
+[LDistance] Distance: 10.8006
+[LDistance] Distance: 10.5946
+[LDistance] Distance: 11.7236
+[LDistance] Distance: 2.16339
+[LDistance] Distance: 11.1899
+[LDistance] Distance: 11.426
+[LDistance] Distance: 14.2557
+[LDistance] Distance: 12.9077
+[LDistance] Distance: 12.0334
+[LDistance] Distance: 4.9812
+[LDistance] Distance: 14.1684
+[LDistance] Distance: 14.1386
+[LDistance] Distance: 10.7419
+[LDistance] Distance: 3.20755
+[LDistance] Distance: 11.7359
+[LDistance] Distance: 11.796
+[LDistance] Distance: 11.0314
+[LDistance] Distance: 11.4178
+[LDistance] Distance: 10.3538
+[LDistance] Distance: 2.56463
+[LDistance] Distance: 11.4953
+[LDistance] Distance: 11.7692
+[LDistance] Distance: 14.2894
+[LDistance] Distance: 13.1759
+[LDistance] Distance: 11.9699
+[LDistance] Distance: 5.32166
+[LDistance] Distance: 14.2652
+[LDistance] Distance: 13.725
+[LDistance] Distance: 10.6268
+[LDistance] Distance: 11.0479
+[LDistance] Distance: 11.8745
+[LDistance] Distance: 11.0673
+[LDistance] Distance: 11.8233
+[LDistance] Distance: 11.4825
+[LDistance] Distance: 10.5395
+[LDistance] Distance: 2.88462
+[LDistance] Distance: 11.8771
+[LDistance] Distance: 12.4164
+[LDistance] Distance: 14.4343
+[LDistance] Distance: 13.431
+[LDistance] Distance: 11.8655
+[LDistance] Distance: 5.49636
+[LDistance] Distance: 14.4157
+[LDistance] Distance: 13.727
+[LDistance] Distance: 11.5379
+[LDistance] Distance: 10.3469
+[LDistance] Distance: 10.9533
+[LDistance] Distance: 1.65214
+[LDistance] Distance: 11.7126
+[LDistance] Distance: 11.4996
+[LDistance] Distance: 10.6614
+[LDistance] Distance: 3.32418
+[LDistance] Distance: 14.3049
+[LDistance] Distance: 11.1652
+[LDistance] Distance: 2.97447
+[LDistance] Distance: 13.4932
+[LDistance] Distance: 11.6772
+[LDistance] Distance: 1.73582
+[LDistance] Distance: 1.34884
+[LDistance] Distance: 11.4714
+[LDistance] Distance: 13.8337
+[LDistance] Distance: 10.3638
+[LDistance] Distance: 10.9395
+[LDistance] Distance: 11.6395
+[LDistance] Distance: 2.34699
+[LDistance] Distance: 2.45494
+[LDistance] Distance: 10.7302
+[LDistance] Distance: 3.77257
+[LDistance] Distance: 13.8782
+[LDistance] Distance: 10.6651
+[LDistance] Distance: 3.42794
+[LDistance] Distance: 13.3364
+[LDistance] Distance: 11.4814
+[LDistance] Distance: 2.69872
+[LDistance] Distance: 10.277
+[LDistance] Distance: 11.6288
+[LDistance] Distance: 10.4557
+[LDistance] Distance: 14.0195
+[LDistance] Distance: 11.3799
+[LDistance] Distance: 11.4129
+[LDistance] Distance: 4.2329
+[LDistance] Distance: 2.10341
+[LDistance] Distance: 10.8417
+[LDistance] Distance: 13.839
+[LDistance] Distance: 4.54746
+[LDistance] Distance: 10.5741
+[LDistance] Distance: 4.14932
+[LDistance] Distance: 1.46704
+[LDistance] Distance: 11.3947
+[LDistance] Distance: 3.69669
+[LDistance] Distance: 10.1606
+[LDistance] Distance: 12.2724
+[LDistance] Distance: 10.6804
+[LDistance] Distance: 14.4245
+[LDistance] Distance: 12.0346
+[LDistance] Distance: 11.4502
+[LDistance] Distance: 4.51672
+[LDistance] Distance: 3.29395
+[LDistance] Distance: 10.9303
+[LDistance] Distance: 13.9197
+[LDistance] Distance: 10.8558
+[LDistance] Distance: 10.3831
+[LDistance] Distance: 4.34207
+[LDistance] Distance: 4.96289
+[LDistance] Distance: 11.1024
+[LDistance] Distance: 3.62924
+[LDistance] Distance: 10.1576
+[LDistance] Distance: 11.7459
+[LDistance] Distance: 11.1459
+[LDistance] Distance: 14.3991
+[LDistance] Distance: 10.9039
+[LDistance] Distance: 11.2879
+[LDistance] Distance: 12.1045
+[LDistance] Distance: 3.77638
+[LDistance] Distance: 14.0008
+[LDistance] Distance: 10.5153
+[LDistance] Distance: 11.2421
+[LDistance] Distance: 10.4289
+[LDistance] Distance: 4.37798
+[LDistance] Distance: 4.99567
+[LDistance] Distance: 11.1997
+[LDistance] Distance: 4.1944
+[LDistance] Distance: 11.8132
+[LDistance] Distance: 10.4371
+[LDistance] Distance: 11.1315
+[LDistance] Distance: 14.4903
+[LDistance] Distance: 10.3767
+[LDistance] Distance: 11.1934
+[LDistance] Distance: 11.9799
+[LDistance] Distance: 4.04267
+[LDistance] Distance: 14.413
+[LDistance] Distance: 10.5289
+[LDistance] Distance: 11.6869
+[LDistance] Distance: 10.7714
+[LDistance] Distance: 4.84151
+[LDistance] Distance: 5.22886
+[LDistance] Distance: 11.2848
+[LDistance] Distance: 5.01314
+[LDistance] Distance: 11.9278
+[LDistance] Distance: 10.1881
+[LDistance] Distance: 11.2554
+[LDistance] Distance: 15.0067
+[LDistance] Distance: 10.3993
+[LDistance] Distance: 11.7735
+[LDistance] Distance: 12.2295
+[LDistance] Distance: 4.24335
+[LDistance] Distance: 14.4462
+[LDistance] Distance: 10.565
+[LDistance] Distance: 13.6942
+[LDistance] Distance: 10.7733
+[LDistance] Distance: 10.6103
+[LDistance] Distance: 5.10208
+[LDistance] Distance: 11.3676
+[LDistance] Distance: 4.84755
+[LDistance] Distance: 11.7729
+[LDistance] Distance: 10.333
+[LDistance] Distance: 3.16143
+[LDistance] Distance: 14.6624
+[LDistance] Distance: 10.3028
+[LDistance] Distance: 11.5072
+[LDistance] Distance: 12.0513
+[LDistance] Distance: 4.44277
+[LDistance] Distance: 14.5556
+[LDistance] Distance: 10.8378
+[LDistance] Distance: 13.3188
+[LDistance] Distance: 10.8796
+[LDistance] Distance: 10.485
+[LDistance] Distance: 5.38965
+[LDistance] Distance: 5.21819
+[LDistance] Distance: 11.4327
+[LDistance] Distance: 11.8204
+[LDistance] Distance: 10.51
+[LDistance] Distance: 3.88065
+[LDistance] Distance: 14.7036
+[LDistance] Distance: 10.6478
+[LDistance] Distance: 11.3997
+[LDistance] Distance: 11.7274
+[LDistance] Distance: 5.60781
+[LDistance] Distance: 15.0368
+[LDistance] Distance: 11.2404
+[LDistance] Distance: 13.3024
+[LDistance] Distance: 11.3843
+[LDistance] Distance: 10.4263
+[LDistance] Distance: 5.85822
+[LDistance] Distance: 5.33945
+[LDistance] Distance: 11.7019
+[LDistance] Distance: 11.8107
+[LDistance] Distance: 10.5984
+[LDistance] Distance: 11.7937
+[LDistance] Distance: 11.3929
+[LDistance] Distance: 14.8855
+[LDistance] Distance: 11.3627
+[LDistance] Distance: 11.6758
+[LDistance] Distance: 14.8626
+[LDistance] Distance: 5.89415
+[LDistance] Distance: 11.2306
+[LDistance] Distance: 13.3456
+[LDistance] Distance: 11.0542
+[LDistance] Distance: 10.6547
+[LDistance] Distance: 2.1298
+[LDistance] Distance: 6.09203
+[LDistance] Distance: 12.0025
+[LDistance] Distance: 11.7371
+[LDistance] Distance: 10.6813
+[LDistance] Distance: 11.757
+[LDistance] Distance: 11.2725
+[LDistance] Distance: 2.34797
+[LDistance] Distance: 10.8514
+[LDistance] Distance: 11.5506
+[LDistance] Distance: 14.8958
+[LDistance] Distance: 11.34
+[LDistance] Distance: 12.1479
+[LDistance] Distance: 13.5492
+[LDistance] Distance: 11.0274
+[LDistance] Distance: 10.4793
+[LDistance] Distance: 3.20451
+[LDistance] Distance: 6.13327
+[LDistance] Distance: 12.5848
+[LDistance] Distance: 1.67904
+[LDistance] Distance: 10.754
+[LDistance] Distance: 11.511
+[LDistance] Distance: 12.035
+[LDistance] Distance: 3.02673
+[LDistance] Distance: 10.8894
+[LDistance] Distance: 11.491
+[LDistance] Distance: 15.0307
+[LDistance] Distance: 11.7301
+[LDistance] Distance: 11.7877
+[LDistance] Distance: 13.844
+[LDistance] Distance: 11.0456
+[LDistance] Distance: 10.658
+[LDistance] Distance: 3.08999
+[LDistance] Distance: 10.7991
+[LDistance] Distance: 6.45617
+[LDistance] Distance: 2.88037
+[LDistance] Distance: 12.2366
+[LDistance] Distance: 11.0793
+[LDistance] Distance: 11.8382
+[LDistance] Distance: 4.02923
+[LDistance] Distance: 11.0867
+[LDistance] Distance: 11.3342
+[LDistance] Distance: 11.7212
+[LDistance] Distance: 13.8781
+[LDistance] Distance: 2.71957
+[LDistance] Distance: 12.0446
+[LDistance] Distance: 12.5966
+[LDistance] Distance: 10.7509
+[LDistance] Distance: 3.65958
+[LDistance] Distance: 10.3342
+[LDistance] Distance: 12.4915
+[LDistance] Distance: 11.5279
+[LDistance] Distance: 10.5515
+[LDistance] Distance: 11.5351
+[LDistance] Distance: 11.5011
+[LDistance] Distance: 11.1099
+[LDistance] Distance: 4.51182
+[LDistance] Distance: 11.423
+[LDistance] Distance: 11.7795
+[LDistance] Distance: 13.9808
+[LDistance] Distance: 11.8591
+[LDistance] Distance: 2.70203
+[LDistance] Distance: 12.623
+[LDistance] Distance: 10.8445
+[LDistance] Distance: 4.48231
+[LDistance] Distance: 10.2179
+[LDistance] Distance: 12.1269
+[LDistance] Distance: 11.4839
+[LDistance] Distance: 10.25
+[LDistance] Distance: 13.5068
+[LDistance] Distance: 11.4116
+[LDistance] Distance: 11.0567
+[LDistance] Distance: 5.01407
+[LDistance] Distance: 11.2399
+[LDistance] Distance: 11.7127
+[LDistance] Distance: 14.4292
+[LDistance] Distance: 11.4897
+[LDistance] Distance: 2.60043
+[LDistance] Distance: 12.8711
+[LDistance] Distance: 10.9729
+[LDistance] Distance: 4.33407
+[LDistance] Distance: 12.024
+[LDistance] Distance: 9.95919
+[LDistance] Distance: 11.727
+[LDistance] Distance: 10.301
+[LDistance] Distance: 13.1009
+[LDistance] Distance: 11.3406
+[LDistance] Distance: 11.1677
+[LDistance] Distance: 5.1963
+[LDistance] Distance: 11.2125
+[LDistance] Distance: 1.65761
+[LDistance] Distance: 14.2535
+[LDistance] Distance: 11.5133
+[LDistance] Distance: 3.39822
+[LDistance] Distance: 12.7183
+[LDistance] Distance: 11.0869
+[LDistance] Distance: 4.80564
+[LDistance] Distance: 11.9831
+[LDistance] Distance: 10.1672
+[LDistance] Distance: 2.65762
+[LDistance] Distance: 10.4301
+[LDistance] Distance: 13.0879
+[LDistance] Distance: 11.2598
+[LDistance] Distance: 11.5794
+[LDistance] Distance: 5.38529
+[LDistance] Distance: 11.9936
+[LDistance] Distance: 14.3736
+[LDistance] Distance: 2.29897
+[LDistance] Distance: 11.6226
+[LDistance] Distance: 4.33822
+[LDistance] Distance: 12.4094
+[LDistance] Distance: 11.3917
+[LDistance] Distance: 4.89634
+[LDistance] Distance: 10.5392
+[LDistance] Distance: 12.1939
+[LDistance] Distance: 13.1407
+[LDistance] Distance: 10.7039
+[LDistance] Distance: 3.28742
+[LDistance] Distance: 11.1351
+[LDistance] Distance: 12.2405
+[LDistance] Distance: 5.768
+[LDistance] Distance: 11.6667
+[LDistance] Distance: 14.4786
+[LDistance] Distance: 2.56709
+[LDistance] Distance: 11.5123
+[LDistance] Distance: 4.79462
+[LDistance] Distance: 12.3046
+[LDistance] Distance: 3.05064
+[LDistance] Distance: 11.8184
+[LDistance] Distance: 10.5158
+[LDistance] Distance: 12.406
+[LDistance] Distance: 11.2467
+[LDistance] Distance: 13.3346
+[LDistance] Distance: 3.65763
+[LDistance] Distance: 11.2311
+[LDistance] Distance: 11.1321
+[LDistance] Distance: 11.1576
+[LDistance] Distance: 11.5054
+[LDistance] Distance: 1.232
+[LDistance] Distance: 3.01794
+[LDistance] Distance: 11.3285
+[LDistance] Distance: 5.27856
+[LDistance] Distance: 12.2843
+[LDistance] Distance: 3.08656
+[LDistance] Distance: 13.7246
+[LDistance] Distance: 10.6922
+[LDistance] Distance: 12.5259
+[LDistance] Distance: 11.221
+[LDistance] Distance: 13.7053
+[LDistance] Distance: 11.016
+[LDistance] Distance: 10.6056
+[LDistance] Distance: 3.77343
+[LDistance] Distance: 10.9926
+[LDistance] Distance: 11.5208
+[LDistance] Distance: 1.75377
+[LDistance] Distance: 3.45134
+[LDistance] Distance: 11.3281
+[LDistance] Distance: 5.39647
+[LDistance] Distance: 12.2301
+[LDistance] Distance: 13.3731
+[LDistance] Distance: 3.14584
+[LDistance] Distance: 11.0967
+[LDistance] Distance: 13.7451
+[LDistance] Distance: 11.3731
+[LDistance] Distance: 10.9651
+[LDistance] Distance: 11.0121
+[LDistance] Distance: 10.5839
+[LDistance] Distance: 4.00113
+[LDistance] Distance: 11.0286
+[LDistance] Distance: 2.19107
+[LDistance] Distance: 4.21712
+[LDistance] Distance: 11.2181
+[LDistance] Distance: 5.56888
+[LDistance] Distance: 12.0754
+[LDistance] Distance: 4.33132
+[LDistance] Distance: 11.0095
+[LDistance] Distance: 11.9213
+[LDistance] Distance: 12.7156
+[LDistance] Distance: 13.8643
+[LDistance] Distance: 10.5071
+[LDistance] Distance: 13.3525
+[LDistance] Distance: 11.6266
+[LDistance] Distance: 11.1574
+[LDistance] Distance: 5.18233
+[LDistance] Distance: 11.1374
+[LDistance] Distance: 10.2734
+[LDistance] Distance: 10.7591
+[LDistance] Distance: 11.1309
+[LDistance] Distance: 5.83095
+[LDistance] Distance: 12.189
+[LDistance] Distance: 4.5074
+[LDistance] Distance: 11.0665
+[LDistance] Distance: 11.8358
+[LDistance] Distance: 12.9965
+[LDistance] Distance: 14.3494
+[LDistance] Distance: 10.7958
+[LDistance] Distance: 13.404
+[LDistance] Distance: 11.3349
+[LDistance] Distance: 10.7443
+[LDistance] Distance: 5.59293
+[LDistance] Distance: 11.337
+[LDistance] Distance: 10.1276
+[LDistance] Distance: 10.4211
+[LDistance] Distance: 11.355
+[LDistance] Distance: 11.0737
+[LDistance] Distance: 11.9716
+[LDistance] Distance: 4.76266
+[LDistance] Distance: 10.9726
+[LDistance] Distance: 11.8103
+[LDistance] Distance: 13.1993
+[LDistance] Distance: 14.1075
+[LDistance] Distance: 11.4102
+[LDistance] Distance: 13.5479
+[LDistance] Distance: 11.1633
+[LDistance] Distance: 10.9008
+[LDistance] Distance: 12.1049
+[LDistance] Distance: 11.315
+[LDistance] Distance: 10.1369
+[LDistance] Distance: 10.4099
+[LDistance] Distance: 11.1348
+[LDistance] Distance: 10.9245
+[LDistance] Distance: 11.9499
+[LDistance] Distance: 4.79517
+[LDistance] Distance: 1.73183
+[LDistance] Distance: 11.8171
+[LDistance] Distance: 13.2273
+[LDistance] Distance: 14.1927
+[LDistance] Distance: 11.3546
+[LDistance] Distance: 13.8228
+[LDistance] Distance: 11.1346
+[LDistance] Distance: 11.0674
+[LDistance] Distance: 11.7674
+[LDistance] Distance: 11.3192
+[LDistance] Distance: 10.4262
+[LDistance] Distance: 10.476
+[LDistance] Distance: 11.028
+[LDistance] Distance: 10.9505
+[LDistance] Distance: 11.9081
+[LDistance] Distance: 1.41387
+[LDistance] Distance: 3.23653
+[LDistance] Distance: 1.72265
+[LDistance] Distance: 13.0905
+[LDistance] Distance: 14.3181
+[LDistance] Distance: 11.554
+[LDistance] Distance: 13.8644
+[LDistance] Distance: 10.7385
+[LDistance] Distance: 12.0488
+[LDistance] Distance: 11.1222
+[LDistance] Distance: 11.5059
+[LDistance] Distance: 10.1316
+[LDistance] Distance: 10.6804
+[LDistance] Distance: 10.9446
+[LDistance] Distance: 11.0875
+[LDistance] Distance: 11.6179
+[LDistance] Distance: 2.41831
+[LDistance] Distance: 2.82995
+[LDistance] Distance: 10.7399
+[LDistance] Distance: 4.60626
+[LDistance] Distance: 12.2488
+[LDistance] Distance: 10.1065
+[LDistance] Distance: 13.9403
+[LDistance] Distance: 10.8157
+[LDistance] Distance: 11.8938
+[LDistance] Distance: 11.1554
+[LDistance] Distance: 11.9216
+[LDistance] Distance: 10.3043
+[LDistance] Distance: 11.1247
+[LDistance] Distance: 10.4363
+[LDistance] Distance: 10.708
+[LDistance] Distance: 11.433
+[LDistance] Distance: 2.71454
+[LDistance] Distance: 3.70776
+[LDistance] Distance: 10.4894
+[LDistance] Distance: 4.70986
+[LDistance] Distance: 14.3545
+[LDistance] Distance: 11.7165
+[LDistance] Distance: 10.0004
+[LDistance] Distance: 11.0156
+[LDistance] Distance: 11.5281
+[LDistance] Distance: 11.1174
+[LDistance] Distance: 12.6129
+[LDistance] Distance: 10.4946
+[LDistance] Distance: 11.1409
+[LDistance] Distance: 10.5229
+[LDistance] Distance: 10.8414
+[LDistance] Distance: 11.3647
+[LDistance] Distance: 3.72225
+[LDistance] Distance: 4.01067
+[LDistance] Distance: 10.513
+[LDistance] Distance: 14.2618
+[LDistance] Distance: 4.94288
+[LDistance] Distance: 11.7026
+[LDistance] Distance: 10.0296
+[LDistance] Distance: 11.0241
+[LDistance] Distance: 11.5644
+[LDistance] Distance: 11.5407
+[LDistance] Distance: 11.3823
+[LDistance] Distance: 10.5484
+[LDistance] Distance: 11.2586
+[LDistance] Distance: 10.6667
+[LDistance] Distance: 10.9827
+[LDistance] Distance: 11.0563
+[LDistance] Distance: 4.34804
+[LDistance] Distance: 4.18309
+[LDistance] Distance: 10.6389
+[LDistance] Distance: 14.3673
+[LDistance] Distance: 11.8372
+[LDistance] Distance: 4.84699
+[LDistance] Distance: 10.3303
+[LDistance] Distance: 11.0293
+[LDistance] Distance: 11.653
+[LDistance] Distance: 11.9844
+[LDistance] Distance: 10.9278
+[LDistance] Distance: 10.6405
+[LDistance] Distance: 11.7383
+[LDistance] Distance: 10.692
+[LDistance] Distance: 11.0424
+[LDistance] Distance: 11.0658
+[LDistance] Distance: 4.06733
+[LDistance] Distance: 10.8521
+[LDistance] Distance: 4.49365
+[LDistance] Distance: 14.4356
+[LDistance] Distance: 1.40904
+[LDistance] Distance: 5.08537
+[LDistance] Distance: 10.0838
+[LDistance] Distance: 11.5632
+[LDistance] Distance: 11.245
+[LDistance] Distance: 13.8908
+[LDistance] Distance: 10.9301
+[LDistance] Distance: 10.6831
+[LDistance] Distance: 11.737
+[LDistance] Distance: 10.6626
+[LDistance] Distance: 11.0421
+[LDistance] Distance: 11.3386
+[LDistance] Distance: 1.94604
+[LDistance] Distance: 11.317
+[LDistance] Distance: 4.58897
+[LDistance] Distance: 1.53645
+[LDistance] Distance: 1.90869
+[LDistance] Distance: 5.56851
+[LDistance] Distance: 10.2051
+[LDistance] Distance: 11.344
+[LDistance] Distance: 11.5906
+[LDistance] Distance: 13.4978
+[LDistance] Distance: 10.8021
+[LDistance] Distance: 11.0294
+[LDistance] Distance: 11.7199
+[LDistance] Distance: 10.9881
+[LDistance] Distance: 10.7714
+[LDistance] Distance: 11.2935
+[LDistance] Distance: 2.40958
+[LDistance] Distance: 11.3429
+[LDistance] Distance: 5.74974
+[LDistance] Distance: 2.40776
+[LDistance] Distance: 2.60663
+[LDistance] Distance: 5.95249
+[LDistance] Distance: 10.3799
+[LDistance] Distance: 11.3441
+[LDistance] Distance: 12.251
+[LDistance] Distance: 13.4865
+[LDistance] Distance: 11.1237
+[LDistance] Distance: 11.6527
+[LDistance] Distance: 11.4729
+[LDistance] Distance: 11.3338
+[LDistance] Distance: 11.129
+[LDistance] Distance: 11.3301
+[LDistance] Distance: 3.01655
+[LDistance] Distance: 11.5012
+[LDistance] Distance: 5.94577
+[LDistance] Distance: 2.71757
+[LDistance] Distance: 4.37389
+[LDistance] Distance: 6.06133
+[LDistance] Distance: 11.2148
+[LDistance] Distance: 11.31
+[LDistance] Distance: 10.4922
+[LDistance] Distance: 13.5852
+[LDistance] Distance: 11.567
+[LDistance] Distance: 13.4862
+[LDistance] Distance: 1.53154
+[LDistance] Distance: 11.7637
+[LDistance] Distance: 11.748
+[LDistance] Distance: 11.5828
+[LDistance] Distance: 3.77528
+[LDistance] Distance: 11.9741
+[LDistance] Distance: 12.2919
+[LDistance] Distance: 2.90265
+[LDistance] Distance: 4.72979
+[LDistance] Distance: 11.1153
+[LDistance] Distance: 10.8426
+[LDistance] Distance: 6.47476
+[LDistance] Distance: 10.5735
+[LDistance] Distance: 13.8061
+[LDistance] Distance: 11.4984
+[LDistance] Distance: 13.101
+[LDistance] Distance: 2.16033
+[LDistance] Distance: 13.8646
+[LDistance] Distance: 10.7406
+[LDistance] Distance: 11.9214
+[LDistance] Distance: 3.52972
+[LDistance] Distance: 12.1282
+[LDistance] Distance: 12.0017
+[LDistance] Distance: 3.41877
+[LDistance] Distance: 12.207
+[LDistance] Distance: 11.4694
+[LDistance] Distance: 12.3385
+[LDistance] Distance: 10.7872
+[LDistance] Distance: 10.6029
+[LDistance] Distance: 14.1983
+[LDistance] Distance: 11.6704
+[LDistance] Distance: 13.1101
+[LDistance] Distance: 2.75746
+[LDistance] Distance: 13.465
+[LDistance] Distance: 10.2375
+[LDistance] Distance: 12.5611
+[LDistance] Distance: 2.33727
+[LDistance] Distance: 12.1513
+[LDistance] Distance: 12.2518
+[LDistance] Distance: 10.6143
+[LDistance] Distance: 12.0785
+[LDistance] Distance: 11.2527
+[LDistance] Distance: 11.9843
+[LDistance] Distance: 10.6787
+[LDistance] Distance: 14.1839
+[LDistance] Distance: 10.9307
+[LDistance] Distance: 12.2702
+[LDistance] Distance: 13.1509
+[LDistance] Distance: 2.88509
+[LDistance] Distance: 13.4696
+[LDistance] Distance: 10.2298
+[LDistance] Distance: 10.9568
+[LDistance] Distance: 2.95851
+[LDistance] Distance: 12.0737
+[LDistance] Distance: 12.0348
+[LDistance] Distance: 10.4623
+[LDistance] Distance: 12.327
+[LDistance] Distance: 11.1983
+[LDistance] Distance: 11.88
+[LDistance] Distance: 10.8869
+[LDistance] Distance: 14.2559
+[LDistance] Distance: 11.3692
+[LDistance] Distance: 11.7693
+[LDistance] Distance: 13.3774
+[LDistance] Distance: 3.51535
+[LDistance] Distance: 13.5824
+[LDistance] Distance: 10.1078
+[LDistance] Distance: 10.5322
+[LDistance] Distance: 3.65703
+[LDistance] Distance: 11.0886
+[LDistance] Distance: 11.6776
+[LDistance] Distance: 10.4322
+[LDistance] Distance: 12.1583
+[LDistance] Distance: 11.129
+[LDistance] Distance: 11.3034
+[LDistance] Distance: 11.8326
+[LDistance] Distance: 14.7896
+[LDistance] Distance: 13.397
+[LDistance] Distance: 11.8321
+[LDistance] Distance: 13.746
+[LDistance] Distance: 10.7988
+[LDistance] Distance: 13.7467
+[LDistance] Distance: 10.4378
+[LDistance] Distance: 10.4638
+[LDistance] Distance: 3.32351
+[LDistance] Distance: 10.8914
+[LDistance] Distance: 11.643
+[LDistance] Distance: 10.7204
+[LDistance] Distance: 11.83
+[LDistance] Distance: 10.6218
+[LDistance] Distance: 11.3064
+[LDistance] Distance: 12.0373
+[LDistance] Distance: 14.4381
+[LDistance] Distance: 12.99
+[LDistance] Distance: 13.7671
+[LDistance] Distance: 11.9294
+[LDistance] Distance: 10.5104
+[LDistance] Distance: 14.1321
+[LDistance] Distance: 11.014
+[LDistance] Distance: 10.1915
+[LDistance] Distance: 2.91013
+[LDistance] Distance: 10.9085
+[LDistance] Distance: 11.7541
+[LDistance] Distance: 10.4637
+[LDistance] Distance: 11.4552
+[LDistance] Distance: 11.8206
+[LDistance] Distance: 10.6748
+[LDistance] Distance: 12.2288
+[LDistance] Distance: 14.5335
+[LDistance] Distance: 12.9889
+[LDistance] Distance: 13.8756
+[LDistance] Distance: 2.0936
+[LDistance] Distance: 10.4845
+[LDistance] Distance: 14.12
+[LDistance] Distance: 10.9489
+[LDistance] Distance: 10.192
+[LDistance] Distance: 4.04509
+[LDistance] Distance: 11.024
+[LDistance] Distance: 11.6384
+[LDistance] Distance: 10.6542
+[LDistance] Distance: 12.0348
+[LDistance] Distance: 10.8386
+[LDistance] Distance: 12.3491
+[LDistance] Distance: 11.6944
+[LDistance] Distance: 14.7148
+[LDistance] Distance: 13.0405
+[LDistance] Distance: 14.3785
+[LDistance] Distance: 3.99847
+[LDistance] Distance: 10.5315
+[LDistance] Distance: 14.2426
+[LDistance] Distance: 11.1551
+[LDistance] Distance: 10.5221
+[LDistance] Distance: 11.2247
+[LDistance] Distance: 3.41426
+[LDistance] Distance: 10.7753
+[LDistance] Distance: 11.4654
+[LDistance] Distance: 12.5054
+[LDistance] Distance: 11.699
+[LDistance] Distance: 10.8853
+[LDistance] Distance: 11.6356
+[LDistance] Distance: 14.075
+[LDistance] Distance: 13.2448
+[LDistance] Distance: 4.321
+[LDistance] Distance: 14.7385
+[LDistance] Distance: 10.7535
+[LDistance] Distance: 10.5053
+[LDistance] Distance: 11.7779
+[LDistance] Distance: 11.632
+[LDistance] Distance: 2.33287
+[LDistance] Distance: 10.8371
+[LDistance] Distance: 11.4727
+[LDistance] Distance: 12.7918
+[LDistance] Distance: 11.7689
+[LDistance] Distance: 1.78683
+[LDistance] Distance: 10.8223
+[LDistance] Distance: 11.4343
+[LDistance] Distance: 14.1516
+[LDistance] Distance: 13.6465
+[LDistance] Distance: 11.9757
+[LDistance] Distance: 11.1371
+[LDistance] Distance: 14.4506
+[LDistance] Distance: 10.5201
+[LDistance] Distance: 11.6995
+[LDistance] Distance: 2.68582
+[LDistance] Distance: 10.9544
+[LDistance] Distance: 13.0365
+[LDistance] Distance: 11.3541
+[LDistance] Distance: 11.8131
+[LDistance] Distance: 10.8904
+[LDistance] Distance: 11.5017
+[LDistance] Distance: 14.315
+[LDistance] Distance: 13.6878
+[LDistance] Distance: 11.8721
+[LDistance] Distance: 11.1639
+[LDistance] Distance: 14.5007
+[LDistance] Distance: 11.0781
+[LDistance] Distance: 11.8734
+[LDistance] Distance: 1.90016
+[LDistance] Distance: 11.0295
+[LDistance] Distance: 13.0636
+[LDistance] Distance: 11.2939
+[LDistance] Distance: 11.2559
+[LDistance] Distance: 2.12514
+[LDistance] Distance: 11.3212
+[LDistance] Distance: 11.3835
+[LDistance] Distance: 11.3087
+[LDistance] Distance: 1.43528
+[LDistance] Distance: 13.8128
+[LDistance] Distance: 12.1228
+[LDistance] Distance: 14.6818
+[LDistance] Distance: 10.7083
+[LDistance] Distance: 11.3985
+[LDistance] Distance: 3.41057
+[LDistance] Distance: 11.8772
+[LDistance] Distance: 3.19443
+[LDistance] Distance: 12.8865
+[LDistance] Distance: 11.2646
+[LDistance] Distance: 11.1527
+[LDistance] Distance: 11.4073
+[LDistance] Distance: 3.92487
+[LDistance] Distance: 11.9279
+[LDistance] Distance: 10.6827
+[LDistance] Distance: 11.4718
+[LDistance] Distance: 4.46482
+[LDistance] Distance: 1.74346
+[LDistance] Distance: 4.62688
+[LDistance] Distance: 3.17018
+[LDistance] Distance: 4.80087
+[LDistance] Distance: 3.71411
+[LDistance] Distance: 4.15869
+[LDistanceMatrix] Data-set (1036800 points) processed in 1.2299 s. (16 thread(s)).
+[ttkLDistanceMatrix] Memory usage: 0 MB.
+[SpectralEmbedding] Initializing Python: 3.7
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[SpectralEmbedding] Loading Python script from: /home/guillaume/source/persistence-atlas/install/share/scripts/ttk
+[SpectralEmbedding] Data-set  processed in 0.269687 s. (16 thread(s)).
+[ttkSpectralEmbedding] Memory usage: 51.6416 MB.
+[Clustering] Initializing Python: 3.7
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[Clustering] Loading Python script from: /home/guillaume/source/persistence-atlas/install/share/scripts/ttk
+[Clustering] Data-set  processed in 0.043812 s. (16 thread(s)).
+[ttkClustering] Memory usage: 14.2236 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[ttkSphereFromPoint] Spheres computed in 0.0263429 s.
+[ttkSphereFromPoint] Memory usage: 2.87793 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[ttkUncertainDataEstimator] Number of inputs: 2
+[ttkUncertainDataEstimator] Number of clusters: 4
+[ttkUncertainDataEstimator] Number of scalar fields: 48
+[UncertainDataEstimator] Data-set (1036800 points) processed in 0.27668 s. (16 thread(s)).
+[ttkUncertainDataEstimator] Memory usage: 63.3125 MB.
+[ttkProgramBase] Reading input data...
+[ttkProgramBase]   done! (read 1036800 vertices, 1034641 cells)
+[ttkMandatoryCriticalPoints] Number of objects: 48
+[ttkMandatoryCriticalPoints] Number of clusters: 4
+[ttkMandatoryCriticalPoints] Number of bins: 5
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster1' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster1' as upper bound...
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster0' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster0' as upper bound...
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster2' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster2' as upper bound...
+[ttkMandatoryCriticalPoints] Using `lowerBound_cluster3' as lower bound...
+[ttkMandatoryCriticalPoints] Using `upperBound_cluster3' as upper bound...
+[ContourTree] JoinTree computed in 2.26124 s. (n: 1036800, a:15010)
+[ContourTree] JoinTree computed in 2.28981 s. (n: 1036800, a:14642)
+[ContourTree] JoinTree computed in 2.31527 s. (n: 1036800, a:14328)
+[ContourTree] JoinTree computed in 2.29669 s. (n: 1036800, a:14407)
+[ContourTree] JoinTree computed in 2.15842 s. (n: 10[SpectralEmbedding] Python: Input distance matrix:
+[[ 0.          3.78618123  3.98555717 ... 11.00954163 11.06650928
+  10.97261152]
+ [ 3.78618123  0.          1.73183161 ... 11.4178409  11.48253339
+  11.49962644]
+ [ 3.98555717  1.73183161  0.         ... 11.38350781 11.40726673
+  11.47182095]
+ ...
+ [11.00954163 11.4178409  11.38350781 ...  0.          2.33286695
+   2.68582358]
+ [11.06650928 11.48253339 11.40726673 ...  2.33286695  0.
+   1.90015599]
+ [10.97261152 11.49962644 11.47182095 ...  2.68582358  1.90015599
+   0.        ]]
+[SpectralEmbedding] Python: numpy module found.
+[SpectralEmbedding] Python: scipy module found.
+[SpectralEmbedding] Python: sklearn module found.
+[SpectralEmbedding] Python: maxcomponents:  20
+Weight matrix:
+[[1.  0.5 0.5 ... 0.  0.  0. ]
+ [0.5 1.  1.  ... 0.  0.  0. ]
+ [0.5 1.  1.  ... 0.  0.  0. ]
+ ...
+ [0.  0.  0.  ... 1.  1.  1. ]
+ [0.  0.  0.  ... 1.  1.  1. ]
+ [0.  0.  0.  ... 1.  1.  1. ]]
+[SpectralEmbedding] Python: Found dimension from gap:  3
+[SpectralEmbedding] Python: Output eigenvectors:
+[[-0.08985508  0.35414523  0.13680295]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.20217394  0.79682676  0.30780663]
+ [-0.26956525  1.06243568  0.41040884]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.22463771  0.88536307  0.34200737]
+ [-0.22463771  0.88536307  0.34200737]
+ [-0.20217394  0.79682676  0.30780663]
+ [-0.11231886  0.44268153  0.17100368]
+ [-0.11231886  0.44268153  0.17100368]
+ [ 0.14080267 -0.65427733  0.11262329]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.1877369  -0.87236977  0.15016439]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.16426979 -0.76332355  0.13139384]
+ [ 0.14080267 -0.65427733  0.11262329]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.1877369  -0.87236977  0.15016439]
+ [ 0.16426979 -0.76332355  0.13139384]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.14650493 -0.0572137   1.66348043]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.08546121 -0.03337466  0.97036359]
+ [ 0.06104372 -0.02383904  0.69311685]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 0.8406202   0.19725728 -0.05844101]
+ [ 0.98072357  0.23013349 -0.06818117]]
+[SpectralEmbedding] Python: Output eigenvalues:
+[-4.33901382e+00 -4.32652183e+00 -4.03163097e+00 -4.00000000e+00
+ -4.00000000e+00 -3.50000000e+00 -3.46005648e+00 -3.36884137e+00
+ -2.61818943e+00 -2.22379514e+00 -2.08742533e+00 -2.05774390e+00
+ -1.90783517e+00 -6.20604385e-01 -4.74639651e-01 -3.04879668e-01
+ -1.91358241e-01 -8.88178420e-16 -8.88178420e-16  4.44089210e-16
+  4.44089210e-16]
+[SpectralEmbedding] Python: Output coords:
+[[-0.08985508  0.35414523  0.13680295]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.20217394  0.79682676  0.30780663]
+ [-0.26956525  1.06243568  0.41040884]
+ [-0.17971017  0.70829046  0.27360589]
+ [-0.22463771  0.88536307  0.34200737]
+ [-0.22463771  0.88536307  0.34200737]
+ [-0.20217394  0.79682676  0.30780663]
+ [-0.11231886  0.44268153  0.17100368]
+ [-0.11231886  0.44268153  0.17100368]
+ [ 0.14080267 -0.65427733  0.11262329]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.1877369  -0.87236977  0.15016439]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.16426979 -0.76332355  0.13139384]
+ [ 0.14080267 -0.65427733  0.11262329]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.21120401 -0.98141599  0.16893494]
+ [ 0.1877369  -0.87236977  0.15016439]
+ [ 0.16426979 -0.76332355  0.13139384]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.07325246 -0.02860685  0.83174022]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.14650493 -0.0572137   1.66348043]
+ [ 0.12208744 -0.04767808  1.38623369]
+ [ 0.09766995 -0.03814247  1.10898696]
+ [ 0.08546121 -0.03337466  0.97036359]
+ [ 0.06104372 -0.02383904  0.69311685]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 0.98072357  0.23013349 -0.06818117]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 1.40103367  0.32876213 -0.09740168]
+ [ 1.12082694  0.26300971 -0.07792134]
+ [ 0.8406202   0.19725728 -0.05844101]
+ [ 0.98072357  0.23013349 -0.06818117]]
+[Clustering] Python: Input eigenvalues:
+[[-4.33901382e+00 -4.32652183e+00 -4.03163097e+00 -4.00000000e+00
+  -4.00000000e+00 -3.50000000e+00 -3.46005648e+00 -3.36884137e+00
+  -2.61818943e+00 -2.22379514e+00 -2.08742533e+00 -2.05774390e+00
+  -1.90783517e+00 -6.20604385e-01 -4.74639651e-01 -3.04879668e-01
+  -1.91358241e-01 -8.88178420e-16 -8.88178420e-16  4.44089210e-16
+   4.44089210e-16]]
+[Clustering] min:  2
+[Clustering] max:  20
+[Clustering] nmin!=nmax
+[Clustering] Python: numpy module found.
+[Clustering] Python: scipy module found.
+[Clustering] Python: sklearn module found.
+[Clustering] Python Sorted:  [[8, 1.2872307861532901], [13, 0.7506519432048697], [16, 0.49999999999999645], [12, 0.3943942900330728], [19, 0.2948908667923309], [4, 0.19135824063361317], [6, 0.16975998386489843], [9, 0.14990872753837436], [7, 0.1459647335098586], [11, 0.13636981167902462], [5, 0.1135214268864353], [14, 0.09121511037762353], [15, 0.0399435154490444], [18, 0.03163096516373365], [10, 0.029681430669894038], [20, 0.012491985390538751], [2, 1.3322676295501878e-15], [17, 8.881784197001252e-16], [3, 0.0]]
+[Clustering] Python Significant Pairs:  [[4, 0.19135824063361317], [6, 0.16975998386489843], [7, 0.1459647335098586], [8, 1.2872307861532901], [9, 0.14990872753837436], [11, 0.13636981167902462], [12, 0.3943942900330728], [13, 0.7506519432048697], [16, 0.49999999999999645], [19, 0.2948908667923309]]
+[Clustering] Python maxgap:  0.19135824063361317
+[Clustering] Python maxid:  4
+[Clustering] Python Percentage average over max gap:  1.0797533720198693
+[Clustering] Python chosen k:  4
+36800, a:15322)
+[ContourTree] JoinTree computed in 2.1287 s. (n: 1036800, a:14969)
+[ContourTree] JoinTree computed in 2.14582 s. (n: 1036800, a:14595)
+[ContourTree] JoinTree computed in 2.1884 s. (n: 1036800, a:14342)
+[ContourTree] SplitTree computed in 2.16302 s. (n: 1036800, a:14216)
+[ContourTree] SplitTree computed in 2.16116 s. (n: 1036800, a:14530)
+[ContourTree] SplitTree computed in 2.19278 s. (n: 1036800, a:13766)
+[ContourTree] SplitTree computed in 2.21139 s. (n: 1036800, a:13609)
+[ContourTree] SplitTree computed in 2.06506 s. (n: 1036800, a:14958)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 8.85442 s. (16 thread(s)).
+[MandatoryCriticalPoints] 759 mandatory minima computed in 0.0206079 s. (16 thread(s))
+[ContourTree] SplitTree computed in 2.07324 s. (n: 1036800, a:15126)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 8.85971 s. (16 thread(s)).
+[MandatoryCriticalPoints] 680 mandatory maxima computed in 0.00855899 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.000283003s.
+[LowestCommonAncestor] Preprocessed queries in 0.000154972s.
+[MandatoryCriticalPoints] 747 mandatory minima computed in 0.0408809 s. (16 thread(s))
+[MandatoryCriticalPoints] 666 mandatory maxima computed in 0.00853086 s. (16 thread(s))
+[MandatoryCriticalPoints] 134 mandatory join saddles computed in 0.082351 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.00039196s.
+[LowestCommonAncestor] Preprocessed queries in 0.000340939s.
+[LowestCommonAncestor] Preprocessed queries in 0.000184059s.
+[LowestCommonAncestor] Preprocessed queries in 0.000129938s.
+[ContourTree] SplitTree computed in 2.0947 s. (n: 1036800, a:14139)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 8.98366 s. (16 thread(s)).
+[MandatoryCriticalPoints] 819 mandatory minima computed in 0.0189018 s. (16 thread(s))
+[MandatoryCriticalPoints] 109 mandatory split saddles computed in 0.0644341 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1036800 points) processed in 9.05152 s. (16 thread(s)).
+[MandatoryCriticalPoints] 744 mandatory maxima computed in 0.00906897 s. (16 thread(s))
+[MandatoryCriticalPoints] 143 mandatory join saddles computed in 0.111427 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.000138044s.
+[LowestCommonAncestor] Preprocessed queries in 0.000119925s.
+[LowestCommonAncestor] Preprocessed queries in 0.000202894s.
+[LowestCommonAncestor] Preprocessed queries in 0.000141859s.
+[MandatoryCriticalPoints] 128 mandatory split saddles computed in 0.0471411 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1036800 points) processed in 9.08665 s. (16 thread(s)).
+[MandatoryCriticalPoints] 183 mandatory join saddles computed in 0.088686 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.000307083s.
+[LowestCommonAncestor] Preprocessed queries in 0.000197887s.
+[ContourTree] SplitTree computed in 2.19402 s. (n: 1036800, a:13733)
+[MandatoryCriticalPoints] 4 SubLevelSetTrees computed in 9.09771 s. (16 thread(s)).
+[MandatoryCriticalPoints] 933 mandatory minima computed in 0.0137579 s. (16 thread(s))
+[MandatoryCriticalPoints] 161 mandatory split saddles computed in 0.0735371 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1036800 points) processed in 9.19596 s. (16 thread(s)).
+[MandatoryCriticalPoints] 798 mandatory maxima computed in 0.00784588 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.000216961s.
+[LowestCommonAncestor] Preprocessed queries in 0.00019002s.
+[MandatoryCriticalPoints] 198 mandatory join saddles computed in 0.120841 s. (16 thread(s))
+[LowestCommonAncestor] Preprocessed queries in 0.000320911s.
+[LowestCommonAncestor] Preprocessed queries in 0.000222921s.
+[MandatoryCriticalPoints] 170 mandatory split saddles computed in 0.10322 s. (16 thread(s))
+[MandatoryCriticalPoints] Data-set (1036800 points) processed in 9.36722 s. (16 thread(s)).
+[ttkMandatoryCriticalPoints] Memory usage: 382.218 MB, elapsed time: 10.7267
+[Common] Goodbye :)
