@@ -165,6 +165,7 @@ template <class dataType> int PersistenceMap::execute(
     persistencePairs_.setVertexSoSoffsets(offsets_.data());
     persistencePairs_.setSegmentation(false);
     persistencePairs_.setThreadNumber(1);
+    persistencePairs_.setDebugLevel(debugLevel_);
     persistencePairs_.build<dataType>();
     
     vector<tuple<ftm::idVertex, ftm::idVertex, dataType> > JTPairs;

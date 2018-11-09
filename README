@@ -103,26 +103,25 @@ And extract the ZIP archive in the 'persistance-atlas' directory with:
 
 $ unzip data.zip
 
-Then enter the directory 'persistence-atlas/install' with:
+Then from the directory 'persistence-atlas', enter the following commands:
 
-$ cd ../install
+for Vortex street:
+$ scripts/vortexStreet.sh
 
-And enter the following commands:
+for Isabella:
+$ scripts/isabella.sh
 
-for vortexStreet:
-$ ./bin/persistenceAtlasCmd -i ../data/vortexStreetGoodEnsemble2.vti -spread 0.03 -critical 2 -mcpThreshold 0.015
+for Starting vortex:
+$ scripts/startingVortex.sh
 
-for isabella:
-$ ./bin/persistenceAtlasCmd -i ../data/isabella_velocity_goodEnsemble.vti -numberOfClusters 3
+for Sea Surface Height:
+$ scripts/seaSurfaceHeight.sh
 
-for startingVortex:
-$ ./bin/persistenceAtlasCmd -i ../data/startingVortexGoodEnsemble.vti -numberOfNeighbors 4 -critical 2
+for Gaussians;
+$ scripts/gaussians.sh
 
-for seaSurfaceHeight:
-$ ./bin/persistenceAtlasCmd -i ../data/seaSurfaceHeightGoodEnsemble.vti -spread 0.01 -threshold 0.1
-
-for pipelineIMage:
-$ ./bin/persistenceAtlasCmd -i ../data/main_example.vtu -numberOfNeighbors 4
+to get the runtime:
+$ scripts/runtime.sh
 
 This command will generate several VTK files that ParaView can load
 and the results can be seen as scalar fields on these data sets:
@@ -167,7 +166,7 @@ $ ./bin/persistenceAtlasCmd -h
 5) Using other data-sets:
 ==
 
-This plugins use VTK Unstructured Grid (vtu) or VTK Image Data (vti) files.
+These plugins use VTK Unstructured Grid (vtu) or VTK Image Data (vti) files.
 In the case of an image data, an implicit triangulation is built.
 
 The scalar fields must be associated to the points.
