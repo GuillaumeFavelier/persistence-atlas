@@ -358,8 +358,6 @@ Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters
 'maximumComponents_cluster0', use '0' as the minimum bound and '9999' as the maximum bound in the 'Properties' tab.
 Next, select the 'maximumLocationLikelihood_cluster0' in the 'Coloring' section of the 'Properties' panel.
 Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' to remove it from the visualization.
-Follow the same procedure on the file 'persistence-atlas/seaSurfaceHeight/mcp_min.vti' with the fields
-'minimumComponents_cluster0' and 'minimumLocationLikelihood_cluster0'.
 You can iterate on the clusters by changing the name of the fields used by the threshold
 from '*_cluster0', '*_cluster1', '*_cluster2' and '*_cluster3' (corresponding to figure 12f, figure 12d, figure 12e
 and figure 12c respectively).
