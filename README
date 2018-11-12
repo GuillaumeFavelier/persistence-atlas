@@ -94,9 +94,8 @@ $ make install
 
 3) Reproducing the results from the paper:
 ==
-Download the ZIP archive from the following website:
-
-$ wget https://drive.google.com/file/d/1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-/view?usp=sharing
+Download the ZIP archive from the following website (please use a web browser):
+https://drive.google.com/file/d/1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-/view?usp=sharing
 
 And extract the ZIP archive in the 'persistance-atlas' directory with:
 
