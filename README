@@ -36,6 +36,9 @@ This code requires the VTK development libraries to be installed on the system
 (version 6.1 or higher). Please see http://www.vtk.org/ for installation
 instructions.
 
+A recent version of ParaView (http://www.paraview.org) should be installed (tested
+with version 5.4.1).
+
 A recent version of CMake (http://www.cmake.org) should be installed (tested
 with version 2.8).
 
@@ -59,7 +62,7 @@ install the required dependencies:
 
 $ apt-get update
 $ apt-get install g++ cmake libboost-dev libvtk6-dev python3-dev \
-  python3-numpy python3-scipy python3-sklearn
+  python3-numpy python3-scipy python3-sklearn paraview
 
 
 2) Compiling the code:
@@ -105,7 +108,8 @@ Then from the directory 'persistence-atlas', enter the following command:
 
 $ scripts/runtime.sh
 
-You will get the total time for each use-case.
+The above script will compute all the outputs presented in the paper and will provide
+the total time for each use-case (see the lines starting by 'real').
 
 If you want to start only a specific use-case, do it with the following command:
 
@@ -138,23 +142,69 @@ To reproduce the figures:
 
 figure 1c:
 --
-Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/sfp.vtp'
-and click on 'Apply'.
+To visualize the planar layout of the ensemble, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/sfp.vtp' and click on 'Apply'.
 Then click on 'sfp.vtp' in the pipeline and choose 'ClusterIdentifier' in the 'Coloring'
 section in the 'Properties' tab.
 
-figure 1d,1e,1f,1g,1h:
+figure 1d:
 --
+To visualize the mandatory critical points shown in figure 1d, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
 and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
-Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
-'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster2', use '0' as the minimum bound and '999' as the maximum bound in the 'Properties' tab.
+Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster2'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' and 'mcp_min.vti' to
+remove them from the visualization.
+
+figure 1e:
+--
+To visualize the mandatory critical points shown in figure 1e, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
+and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound and '999' as the maximum bound in the 'Properties' tab.
 Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster0'.
-You can iterate on the clusters by changing the name of the fields used by the threshold
-from '*_cluster0' to '*_cluster4'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' and 'mcp_min.vti' to
+remove them from the visualization.
+
+figure 1f:
+--
+To visualize the mandatory critical points shown in figure 1f, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
+and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster3', use '0' as the minimum bound and '999' as the maximum bound in the 'Properties' tab.
+Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster3'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' and 'mcp_min.vti' to
+remove them from the visualization.
+
+figure 1g:
+--
+To visualize the mandatory critical points shown in figure 1g, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
+and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster4', use '0' as the minimum bound and '999' as the maximum bound in the 'Properties' tab.
+Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster4'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' and 'mcp_min.vti' to
+remove them from the visualization.
+
+figure 1h:
+--
+To visualize the mandatory critical points shown in figure 1h, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/mcp_max.vti'
+and 'persistence-atlas/vortexStreet/mcp_min.vti' and click on 'Apply'.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster1', use '0' as the minimum bound and '999' as the maximum bound in the 'Properties' tab.
+Follow the same procedure on 'mcp_min.vti' on the field 'minimumComponents_cluster1'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' and 'mcp_min.vti' to
+remove them from the visualization.
 
 figure 3b:
 --
+To visualize the persistence map shown in the figure 3b, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/pmb.vtu'
 and click on 'Apply'.
 First, click on 'pmb.vtu' in the pipeline and:
@@ -167,93 +217,152 @@ section in the 'Properties' tab.
 
 figure 3c:
 --
+To visualize the distance matrix shown in the figure 3c, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/ldm.vtu'
 and click on 'Apply'.
-Then click on 'ldm.vtu' in the pipeline and choose 'DistanceMatrix' in the 'Coloring'
-section in the 'Properties' tab.
+Then click on 'ldm.vtu' in the pipeline and select from the top menu 'Filters > Alphabetical > Resample To Image'
+and set the dimensions to '100 x 100 x 1' and click on 'Apply'. Next, select the 'ResampleToImage1' object in
+the pipeline browser and choose 'DistanceMatrix' in the 'Coloring' section in the 'Properties' tab.
 
 figure 3d:
 --
-Follow the same procedure as the one described in figure 1c but open the file
-'persistence-atlas/gaussians/sfp.vtp' instead.
+To visualize the planar layout of the ensemble, follow the same procedure as the one described
+in figure 1c but open the file 'persistence-atlas/gaussians/sfp.vtp' instead.
 
 figure 3e:
 --
+To visualize the mandatory critical points shown in figure 3e, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/gaussians/mcp_max.vtu'
 and click on 'Apply'.
-Then click on 'mcp_max.vtu' in the pipeline and apply 'Filters > Common > Threshold' on the field
-'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
-Follow the same procedure for the fields 'maximumComponents_cluster1' and 'maximumComponents_cluster2'.
+Then click on 'mcp_max.vtu' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound and '99' as the maximum bound in the 'Properties' tab.
+Next, select the 'maximumLocationLikelihood_cluster0' in the 'Coloring' section of the 'Properties' panel.
+Follow the same procedure for the fields 'maximumComponents_cluster1' (with 'maximumLocationLikelihood_cluster1')
+and 'maximumComponents_cluster2' (with 'maximumLocationLikelihood_cluster2').
+
+figure 7:
+--
+To visualize the first persistence map shown on the right side of figure 7, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/pmb.vti' and
+click on 'Apply'.
+Next, select the field '50.0' in the 'Coloring' section of the 'Properties' panel.
+
+To visualize the second persistence map shown on the right side of figure 7, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/pmb.vti' and
+click on 'Apply'.
+Next, select the field '60.1' in the 'Coloring' section of the 'Properties' panel.
+
+To visualize the third persistence map shown on the right side of figure 7, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/pmb.vti' and
+click on 'Apply'.
+Next, select the field '100.0' in the 'Coloring' section of the 'Properties' panel.
+
+To visualize the fourth persistence map shown on the right side of figure 7, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/pmb.vti' and
+click on 'Apply'.
+Next, select the field '160.0' in the 'Coloring' section of the 'Properties' panel.
+
+To visualize the fifth persistence map shown on the right side of figure 7, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/vortexStreet/pmb.vti' and
+click on 'Apply'.
+Next, select the field '200.0' in the 'Coloring' section of the 'Properties' panel.
 
 figure 8:
 --
+To visualize the persistence maps shown on the right side of figure 8, follow the procedure below.
+For the top image:
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/isabella/pmb.vti'
 and click on 'Apply'.
-For the top image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result1'
-as 'Result Array Name' and 'velocityMag_02' as the expression. Now, select 'Result1' in the 'Coloring'
-section and 'Volume' in 'Representation' section.
-For the middle image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result2'
-as 'Result Array Name' and 'velocityMag_30' as the expression. Now, select 'Result2' in the 'Coloring'
-section and 'Volume' in 'Representation' section. You may need to modify the color transfer function in the
-'Color Map Editor' of ParaView to get the exact same result.
-For the bottom image: click on 'pmb.vti' in the pipeline and apply 'Filters > Common > Calculator', use 'Result3'
-as 'Result Array Name' and 'velocityMag_48' as the expression. Now, select 'Result3' in the 'Coloring'
-section and 'Volume' in 'Representation' section. You may need to modify the color transfer function in the
-'Color Map Editor' of ParaView to get the exact same result.
+Click on 'pmb.vti' in the pipeline and select from the top menu 'Filters > Common > Calculator',
+use 'Result1' as 'Result Array Name' and 'velocityMag_02' as the expression right under it and press the 'Apply' button.
+Now, select 'Result1' in the 'Coloring' section and 'Volume' in 'Representation' section.
+
+For the middle image:
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/isabella/pmb.vti'
+and click on 'Apply'.
+Click on 'pmb.vti' in the pipeline and select from the top menu 'Filters > Common > Calculator',
+use 'Result2' as 'Result Array Name' and 'velocityMag_30' as the expression right under it and press the 'Apply' button.
+Now, select 'Result2' in the 'Coloring' section and 'Volume' in 'Representation' section.
+You may need to modify the color transfer function in the 'Color Map Editor' of ParaView to get the exact same result.
+
+For the bottom image:
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/isabella/pmb.vti'
+and click on 'Apply'.
+Click on 'pmb.vti' in the pipeline and select from the top menu 'Filters > Common > Calculator',
+use 'Result3' as 'Result Array Name' and 'velocityMag_48' as the expression right under it and press the 'Apply' button.
+Now, select 'Result3' in the 'Coloring' section and 'Volume' in 'Representation' section.
+You may need to modify the color transfer function in the 'Color Map Editor' of ParaView to get the exact same result.
 
 figure 9d:
 --
-Follow the same procedure as the one described in figure 3c but open the file
-'persistence-atlas/startingVortex/ldm.vtu' instead.
+To visualize the distance matrix shown in the figure 9d, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/ldm.vtu'
+and click on 'Apply'.
+Then click on 'ldm.vtu' in the pipeline and select from the top menu 'Filters > Alphabetical > Resample To Image'
+and set the dimensions to '12 x 12 x 1' and click on 'Apply'. Next, select the 'ResampleToImage1' object in the pipeline
+browser and choose 'DistanceMatrix' in the 'Coloring' section in the 'Properties' tab.
 
 figure 9e:
 --
+To visualize the persistence maps shown on the right side of figure 9, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/pmb.vti'
 and click on 'Apply'.
-First, click on 'pmb.vti' in the pipeline and choose any field from 'vorticity_angle_02' to
-'vorticity_angle_08' in the 'Coloring' section in the 'Properties' tab.
+First, click on 'pmb.vti' in the pipeline and choose 'vorticity_angle_02' (figure 9e)
+in the 'Coloring' section in the 'Properties' tab.
 
 figure 9f:
 --
-Follow the same procedure as the one described in figure 9e but choose any field from
-'vorticity_angle_38' to 'vorticity_angle_43' in the 'Coloring' section in the 'Properties' tab.
+To visualize the persistence maps shown on the right side of figure 9, follow the procedure below.
+Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/pmb.vti'
+and click on 'Apply'.
+First, click on 'pmb.vti' in the pipeline and choose 'vorticity_angle_38' (figure 9f)
+in the 'Coloring' section in the 'Properties' tab.
 
 figure 10(middle):
 --
-Follow the same procedure as the one described in figure 1c but open the file
-'persistence-atlas/startingVortex/sfp.vtp' instead.
+To visualize the planar layout of the ensemble, follow the same procedure as the one described
+in figure 1c but open the file 'persistence-atlas/startingVortex/sfp.vtp' instead.
 
 figure 10(right):
 --
+To visualize the mandatory critical points shown in figure 10 (right), follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/startingVortex/mcp_max.vti'
 and click on 'Apply'.
-Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
 'maximumComponents_cluster0', use '0' as the minimum and maximum bound in the 'Properties' tab.
-Follow the same procedure for the field 'maximumComponents_cluster1'.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' to remove it from the visualization.
+Next, select the 'maximumLocationLikelihood_cluster0' in the 'Coloring' section of the 'Properties' panel.
+Follow the same procedure for the field 'maximumComponents_cluster1' (with 'maximumLocationLikelihood_cluster1').
 
 figure 11b:
 --
-For the lower dimensional embedding, follow the same procedure as the one described in figure 1c but
+To visualize the planar layout of the ensemble, follow the same procedure as the one described in figure 1c but
 open the file 'persistence-atlas/isabella/sfp.vtp' instead.
-For the confidence regions, start ParaView, select 'File > Open' and choose the file
+To visualize the mandatory critical points, start ParaView, select 'File > Open' and choose the file
 'persistence-atlas/isabella/mcp_max.vti' and click on 'Apply'.
-Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
 'maximumComponents_cluster0', use '0' as the minimum and maximum bound in the 'Properties' tab.
 Follow the same procedure for the fields 'maximumComponents_cluster1' and 'maximumComponents_cluster2'.
 
 figure 12b:
 --
-Follow the same procedure as the one described in figure 1c but open the file
-'persistence-atlas/seaSurfaceHeight/sfp.vtp' instead.
+To visualize the planar layout of the ensemble, follow the same procedure as the one described in figure 1c but
+open the file 'persistence-atlas/seaSurfaceHeight/sfp.vtp' instead.
 
 figure 12c,12d,12e,12f:
 --
+To visualize the mandatory critical points, follow the procedure below.
 Start ParaView, select 'File > Open' and choose the file 'persistence-atlas/seaSurfaceHeight/mcp_max.vti'
 and click on 'Apply'.
-Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Threshold' on the field
-'maximumComponents_cluster0', use '0' as the minimum bound in the 'Properties' tab.
+Then click on 'mcp_max.vti' in the pipeline and apply from the top menu 'Filters > Common > Threshold' on the field
+'maximumComponents_cluster0', use '0' as the minimum bound and '9999' as the maximum bound in the 'Properties' tab.
+Next, select the 'maximumLocationLikelihood_cluster0' in the 'Coloring' section of the 'Properties' panel.
+Click on the 'eye' icon in the pipeline browser in front of 'mcp_max.vti' to remove it from the visualization.
+Follow the same procedure on the file 'persistence-atlas/seaSurfaceHeight/mcp_min.vti' with the fields
+'minimumComponents_cluster0' and 'minimumLocationLikelihood_cluster0'.
 You can iterate on the clusters by changing the name of the fields used by the threshold
-from '*_cluster0' to '*_cluster3'.
+from '*_cluster0', '*_cluster1', '*_cluster2' and '*_cluster3' (corresponding to figure 12f, figure 12d, figure 12e
+and figure 12c respectively).
 
 
 4) Program options and arguments:
