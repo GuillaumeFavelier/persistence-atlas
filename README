@@ -102,7 +102,7 @@ And extract the ZIP archive in the 'persistance-atlas' directory with:
 
 $ unzip data.zip
 
-Then from the directory 'persistence-atlas', enter the following commands:
+Then from the directory 'persistence-atlas', enter the following command:
 
 $ scripts/runtime.sh
 
@@ -256,6 +256,7 @@ Then click on 'mcp_max.vti' in the pipeline and apply 'Filters > Common > Thresh
 You can iterate on the clusters by changing the name of the fields used by the threshold
 from '*_cluster0' to '*_cluster3'.
 
+
 4) Program options and arguments:
 ==
 From the directory "PersistenceAtlas/install", running the following command line will
@@ -290,7 +291,6 @@ $ ./bin/persistenceAtlasCmd -h
 
 5) Using other data-sets:
 ==
-
 These plugins use VTK Unstructured Grid (vtu) or VTK Image Data (vti) files.
 In the case of an image data, an implicit triangulation is built.
 
