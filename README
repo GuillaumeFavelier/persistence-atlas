@@ -96,7 +96,7 @@ $ make install
 ==
 Download the ZIP archive from the following website:
 
-$ wget https://drive.google.com/open?id=1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-
+$ wget https://drive.google.com/file/d/1PffcEKpy7YQKF0mLtube-mh-vxPeiw3-/view?usp=sharing
 
 And extract the ZIP archive in the 'persistance-atlas' directory with:
 
